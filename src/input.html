@@ -1,0 +1,43 @@
+<!DOCTYPE HTML5>
+  <html>
+  <head>
+    <title>Input your data</title>
+    <script>
+    $(document).ready(function () {
+    $('input[type="radio"]').click(function () {
+                $('#r').removeClass("hide");
+    });
+});
+  </script>
+  </head>
+  <body>
+  <fieldset>
+    <legend>Input Information:</legend>
+    <form>
+  <input type="radio" name="file" value="Rfam-code" checked> Rfam-code<br>
+  <input type="radio" name="file" value="fasta"> Fasta-sequence<br>
+  <input type="radio" name="file" value="other"> Fasta-file<br>
+   </form>
+
+    <form action="/file_util.py">
+
+    First name:<br>
+    <input type="text" name="firstname" value="Mickey"><br>
+    Last name:<br>
+    <input type="text" name="lastname" value="Mouse"><br><br>
+    <input type="submit" value="Submit">
+  </fieldset>
+    </form>
+    <div id="regFormContainer" class="bar-colors-borders">
+          <form action="input.py" method="post" enctype="multipart/form-data">
+              <div class="uploadFileprompt">
+                  <div class="span_left">File 1 to upload - Max. 100kb</div>
+                  <div class="span_right"><input type="file" name="txtUploadFile[]"  /></div>
+              </div>
+          </form>
+          <input type="submit" value="Submit">
+    </div>
+
+
+
+  </body>
