@@ -1,0 +1,51 @@
+>CP000552.1:c662192-662132 Prochlorococcus marinus str. MIT 9515, complete genome FORWARD
+None       1 ..      11   xxxxxxxxxxxxxxx                  AAACGTTCAAC                  TTGCGCATGCAAGCC
+ 6.1       2 ..      12   xxxxxxxxxxxxxxA                 A ACGTTCAAC T                 TGCGCATGCAAGCCG
+ 0.4       3 ..      13   xxxxxxxxxxxxxAA                 ACGT TCA ACTT                 GCGCATGCAAGCCGC
+ 3.9       2 ..      14   xxxxxxxxxxxxxxA                AACGT TCA ACTTG                CGCATGCAAGCCGCA
+   4       5 ..      15   xxxxxxxxxxxAAAC                 GT TCAACTT GC                 GCATGCAAGCCGCAG
+ 1.7       4 ..      16   xxxxxxxxxxxxAAA                CGT TCAACTT GCG                CATGCAAGCCGCAGA
+ 0.3       5 ..      17   xxxxxxxxxxxAAAC                GTTCA ACT TGCGC                ATGCAAGCCGCAGAT
+ 3.8       4 ..      18   xxxxxxxxxxxxAAA               CGTTCA ACT TGCGCA               TGCAAGCCGCAGATC
+ 2.9       3 ..      19   xxxxxxxxxxxxxAA              ACGTTCA ACT TGCGCAT              GCAAGCCGCAGATCG
+ 3.8       8 ..      20   xxxxxxxxAAACGTT                CA ACTTGCGCA TG                CAAGCCGCAGATCGA
+ 5.8      10 ..      21   xxxxxxAAACGTTCA                ACTT GCGC ATGC                 AAGCCGCAGATCGAT
+ 2.5      12 ..      22   xxxxAAACGTTCAAC                TTGC GCAT GCA-                 AGCCGCAGATCGATC
+-4.4      12 ..      23   xxxxAAACGTTCAAC                TTGC GCAT GCAA                 GCCGCAGATCGATCT
+-6.7      11 ..      24   xxxxxAAACGTTCAA               CTTGC GCAT GCAAG                CCGCAGATCGATCTA
+-3.2      10 ..      25   xxxxxxAAACGTTCA              ACTTGC GCAT GCAAGC               CGCAGATCGATCTAA
+ 0.3       9 ..      26   xxxxxxxAAACGTTC             AACTTGC GCAT GCAAGCC              GCAGATCGATCTAAG
+  -2       8 ..      27   xxxxxxxxAAACGTT            CAACTTGC GCAT GCAAGCCG             CAGATCGATCTAAGC
+ 0.1      14 ..      28   xxAAACGTTCAACTT               GCG CATGCAAGC CGC               AGATCGATCTAAGCC
+-2.5      19 ..      29   CGTTCAACTTGCGCA                 TGC AAGCC GCA                 GATCGATCTAAGCCA
+ 0.5      12 ..      30   xxxxAAACGTTCAAC             TTGCG CATGCAAGC CGCAG             ATCGATCTAAGCCAT
+   4      11 ..      31   xxxxxAAACGTTCAA            CTTGCG CATGCAAGC CGCAGA            TCGATCTAAGCCATG
+ 3.1      10 ..      32   xxxxxxAAACGTTCA           ACTTGCG CATGCAAGC CGCAGAT           CGATCTAAGCCATGG
+ 5.8      22 ..      33   TCAACTTGCGCATGC                AAGC CGCA GATC                 GATCTAAGCCATGGA
+ 3.5      21 ..      34   TTCAACTTGCGCATG               CAAGC CGCA GATCG                ATCTAAGCCATGGAA
+ 1.9      25 ..      35   ACTTGCGCATGCAAG                 CCG CAGAT CGA                 TCTAAGCCATGGAAC
+ 3.2      24 ..      36   AACTTGCGCATGCAA                GCCG CAGAT CGAT                CTAAGCCATGGAACG
+ 4.6       5 ..      37   xxxxxxxxxxxAAAC      GTTCAACTTGCG CATGCAAGC CGCAGATCGATC      TAAGCCATGGAACGG
+ 3.9      28 ..      38   TGCGCATGCAAGCCG                CAGA TCGA TCT-                 AAGCCATGGAACGGG
+ 1.4      28 ..      39   TGCGCATGCAAGCCG                CAGA TCGA TCTA                 AGCCATGGAACGGGG
+ 4.9      27 ..      40   TTGCGCATGCAAGCC               GCAGA TCGA TCTAA                GCCATGGAACGGGGA
+ 2.6      26 ..      41   CTTGCGCATGCAAGC              CGCAGA TCGA TCTAAG               CCATGGAACGGGGAC
+ 5.3      27 ..      42   TTGCGCATGCAAGCC             GC--AGA TCGA TCTAAGC              CATGGAACGGGGACT
+ 3.8      24 ..      43   AACTTGCGCATGCAA            GCCGCAGA TCGA TCTAAGCC             ATGGAACGGGGACTT
+ 3.9      32 ..      44   CATGCAAGCCGCAGA                TCGAT CTA AGCCA                TGGAACGGGGACTTA
+   3      31 ..      45   GCATGCAAGCCGCAG               ATCGAT CTA AGCCAT               GGAACGGGGACTTAG
+ 4.1      21 ..      46   TTCAACTTGCGCATG         CAAGCCGCAGA TCGA TCTAAGCCATG          GAACGGGGACTTAGG
+ 1.1      37 ..      47   AAGCCGCAGATCGAT                 CTA AGCCA TGG                 AACGGGGACTTAGGx
+ 0.2      36 ..      48   CAAGCCGCAGATCGA                TCTA AGCCA TGGA                ACGGGGACTTAGGxx
+ 3.7      35 ..      49   GCAAGCCGCAGATCG               ATCTA AGCCA TGGAA               CGGGGACTTAGGxxx
+ 1.4      34 ..      50   TGCAAGCCGCAGATC              GATCTA AGCCA TGGAAC              GGGGACTTAGGxxxx
+-0.9      33 ..      51   ATGCAAGCCGCAGAT             CGATCTA AGCCA TGGAACG             GGGACTTAGGxxxxx
+  -1      42 ..      52   GCAGATCGATCTAAG                 CCAT GGA ACGG                 GGACTTAGGxxxxxx
+ 1.2      43 ..      53   CAGATCGATCTAAGC                 CATG GAA CGGG                 GACTTAGGxxxxxxx
+-1.1      42 ..      54   GCAGATCGATCTAAG                CCATG GAA CGGGG                ACTTAGGxxxxxxxx
+ 2.4      41 ..      55   CGCAGATCGATCTAA               GCCATG GAA CGGGGA               CTTAGGxxxxxxxxx
+ 2.6      41 ..      56   CGCAGATCGATCTAA              G-CCATG GAA CGGGGAC              TTAGGxxxxxxxxxx
+ 1.7      40 ..      57   CCGCAGATCGATCTA             AG-CCATG GAA CGGGGACT             TAGGxxxxxxxxxxx
+ 0.8      39 ..      58   GCCGCAGATCGATCT            AAG-CCATG GAA CGGGGACTT            AGGxxxxxxxxxxxx
+-0.1      38 ..      59   AGCCGCAGATCGATC           TAAG-CCATG GAA CGGGGACTTA           GGxxxxxxxxxxxxx
+-2.4      37 ..      60   AAGCCGCAGATCGAT          CTAAG-CCATG GAA CGGGGACTTAG          Gxxxxxxxxxxxxxx
