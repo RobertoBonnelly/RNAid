@@ -27,7 +27,8 @@ ver_dag = [0]
 class testFing(unittest.TestCase):
 
     def test_get_data(self):
-        self.assertEqual(dm.get_data('./test_data.out'), ver_get_data)
+        self.assertEqual(dm.get_data('./test_data.out')[1], ver_get_data)
+        self.assertEqual(dm.get_data('./text_data_empty.out')[1], [])
 
     def test_pal(self):
         self.assertEqual(fing.palindromes(ver_get_data), ver_pal)
