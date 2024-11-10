@@ -48,23 +48,30 @@ def process_fa(temp_fa, temp_out="temp.out"):
         os.system("transterm/2ndscore --no-rvs {} > {}".format(temp_fa, temp_out))
         #os.system("rm {}".format(temp_out))
 
-def get_data(temp_out = 'temp.out'):
+def get_data(temp_out):
+
+    ## empty list
     refine_data = []
+
+    ## opening hairpins.out file obtained
+    ## from 2ndscore
     with open (temp_out, 'r') as f:
-        lines = f.read().splitlines()
-        #print(lines)
-        if lines:     
+
+        # splitting the file by sequence identifiers to separate multi-sequence
+        # into multiple lists
+        data_extractor = f.read().split(">")
+        data_extractor.pop(0)
+        obj = {}
+        for i in data_extractor:
+            lines = i.splitlines()
+            
             seq_name = lines.pop(0)
-        #print(seq_name)
-            seq_name=re.sub(".fa\s\sFORWARD","",re.sub(">","",seq_name))
-       
-        #seq_name=re.sub(".fa\s\sFORWARD","",seq_name)
-        #print(seq_name)
-        #s = re.match('^(\>)(\w+\.\w+\.*)(\.fa.+)',seq_name)
-        #seq_name = s.groups(0)
+            refine_data.append(seq_name)
             data = [line.split() for line in lines]
-            refine_data = [d for d in data if d[0] != 'None' and float(d[0]) < 0]
-            return seq_name, refine_data
+            obj[str(refine_data[data_extractor.index(i)])] = [d for d in data if d[0] != "None" and float(d[0]) <= 0]
+            
+            continue
+        return [refine_data, obj]
 
 def sndscore(dir="sequence"):
     starttime=time.time()

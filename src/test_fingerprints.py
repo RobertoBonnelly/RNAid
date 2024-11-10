@@ -2,7 +2,15 @@ import unittest
 import data_mining as dm
 import fingerprint as fing
 
-ver_get_data = {'NC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':[['-8.2', '14', '..', '24', 'xxATGAAAGCATTCT', 'GGCG','TAA', 'CGCC', 'GCGTTGCTCGCGGTT'], ['-6.9', '13', '..', '25', 'xxxATGAAAGCATTC', 'TGGCG', 'TAA', 'CGCCG', 'CGTTGCTCGCGGTTT'], ['-3.4', '12', '..', '26', 'xxxxATGAAAGCATT', 'CTGGCG', 'TAA', 'CGCCGC', 'GTTGCTCGCGGTTTC']]}
+ver_get_data = {'NC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':
+                [['-8.2', '14', '..', '24', 'xxATGAAAGCATTCT', 'GGCG','TAA', 'CGCC', 'GCGTTGCTCGCGGTT'], ['-6.9', '13', '..', '25', 'xxxATGAAAGCATTC', 'TGGCG', 'TAA', 'CGCCG', 'CGTTGCTCGCGGTTT'], ['-3.4', '12', '..', '26', 'xxxxATGAAAGCATT', 'CTGGCG', 'TAA', 'CGCCGC', 'GTTGCTCGCGGTTTC']]}
+
+ver_get_data_multi = {'FC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':
+                      [['-8.2', '14', '..', '24', 'xxATGAAAGCATTCT', 'GGCG', 'TAA', 'CGCC', 'GCGTTGCTCGCGGTT'], ['-6.9', '13', '..', '25', 'xxxATGAAAGCATTC', 'TGGCG', 'TAA', 'CGCCG', 'CGTTGCTCGCGGTTT'], ['-3.4', '12', '..', '26', 'xxxxATGAAAGCATT', 'CTGGCG', 'TAA', 'CGCCGC', 'GTTGCTCGCGGTTTC']], 
+                      'NC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':
+                      [['-9.2', '14', '..', '24', 'xxATGAAAGCATTCT', 'GGCG', 'TAA', 'CGCC', 'GCGTTGCTCGCGGTT'], ['-6.9', '13', '..', '25', 'xxxATGAAAGCATTC', 'TGGCG', 'TAA', 'CGCCG', 'CGTTGCTCGCGGTTT'], ['-3.4', '12', '..', '26', 'xxxxATGAAAGCATT', 'CTGGCG', 'TAA', 'CGCCGC', 'GTTGCTCGCGGTTTC']], 
+                      'MC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':
+                      [['-1.2', '14', '..', '24', 'xxATGAAAGCATTCT', 'GGCG', 'TAA', 'CGCC', 'GCGTTGCTCGCGGTT'], ['-6.9', '13', '..', '25', 'xxxATGAAAGCATTC', 'TGGCG', 'TAA', 'CGCCG', 'CGTTGCTCGCGGTTT'], ['-3.4', '12', '..', '26', 'xxxxATGAAAGCATT', 'CTGGCG', 'TAA', 'CGCCGC', 'GTTGCTCGCGGTTTC']]}
 
 ver_pal = [[12, 17, 21, 26], [13, 17, 21, 25], [14, 17, 21, 24]]
 
@@ -30,6 +38,7 @@ class testFing(unittest.TestCase):
         self.assertEqual(dm.get_data('../test_data.out')[1], ver_get_data)
         self.assertEqual(dm.get_data('../test_data_empty.out')[1], {'NC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':[]})
         self.assertEqual(dm.get_data('../test_data_compempty.out')[1], {})
+        self.assertEqual(dm.get_data('../test_multi.out')[1], ver_get_data_multi)
 
     def test_pal(self):
         self.assertEqual(fing.palindromes(ver_get_data), ver_pal)
