@@ -68,7 +68,7 @@ def get_data(temp_out):
             seq_name = lines.pop(0)
             refine_data.append(seq_name)
             data = [line.split() for line in lines]
-            obj[str(refine_data[data_extractor.index(i)])] = [d for d in data if d[0] != "None" and float(d[0]) <= 0]
+            obj[str(refine_data[data_extractor.index(i)])] = [d for d in data if d[0] != "None" and float(d[0]) <= 2]
             
             continue
         return [refine_data, obj]
