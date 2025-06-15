@@ -1,0 +1,53 @@
+>DQ190454.1:c58870-58808 Homo sapiens clone mck43_A neighbor of BRCA1 gene 1 (NBR1) gene, partial cds; and hypothetical protein LOC10230 (NBR2) and breast cancer 1 early onset (BRCA1) genes, complete cds FORWARD
+ 0.4       1 ..      11   xxxxxxxxxxxxxxx                 GTAA AAG TTTC                 ATTTGATCTGAATAG
+ 1.8       2 ..      12   xxxxxxxxxxxxxxG                 TAAA AGT TTCA                 TTTGATCTGAATAGT
+ 3.1       1 ..      13   xxxxxxxxxxxxxxx                GTAAA AGT TTCAT                TTGATCTGAATAGTA
+ 0.4       4 ..      14   xxxxxxxxxxxxGTA                 AAAG TTT CATT                 TGATCTGAATAGTAT
+-0.5       3 ..      15   xxxxxxxxxxxxxGT                AAAAG TTT CATTT                GATCTGAATAGTATT
+ 0.8       2 ..      16   xxxxxxxxxxxxxxG               TAAAAG TTT CATTTG               ATCTGAATAGTATTA
+ 3.9       2 ..      17   xxxxxxxxxxxxxxG              TAAAA GTTTCA TTTGA               TCTGAATAGTATTAA
+ 5.2       1 ..      18   xxxxxxxxxxxxxxx             GTAAAA GTTTCA TTTGAT              CTGAATAGTATTAAA
+ 4.6       7 ..      19   xxxxxxxxxGTAAAA                GTTT CATTT GATC                TGAATAGTATTAAAA
+ 3.7       6 ..      20   xxxxxxxxxxGTAAA               AGTTT CATTT GATCT               GAATAGTATTAAAAT
+ 1.8      11 ..      21   xxxxxGTAAAAGTTT                 CA TTTGATC TG                 AATAGTATTAAAATA
+ 0.9      10 ..      22   xxxxxxGTAAAAGTT                TCA TTTGATC TGA                ATAGTATTAAAATAA
+-2.384e-08       9 ..      23   xxxxxxxGTAAAAGT               TTCA TTTGATC TGAA               TAGTATTAAAATAAA
+ 0.9      12 ..      24   xxxxGTAAAAGTTTC                ATTTG ATC TGAAT                AGTATTAAAATAAAA
+   4      15 ..      25   xGTAAAAGTTTCATT                 TGAT CTG AATA                 GTATTAAAATAAAAT
+ 4.6      11 ..      26   xxxxxGTAAAAGTTT              C-ATTTG ATC TGAATAG              TATTAAAATAAAATA
+ 3.9      17 ..      27   TAAAAGTTTCATTTG                ATCT GAAT AG-T                 ATTAAAATAAAATAC
+ 3.9      18 ..      28   AAAAGTTTCATTTGA                T-CT GAAT AGTA                 TTAAAATAAAATACC
+   3      17 ..      29   TAAAAGTTTCATTTG               AT-CT GAAT AGTAT                TAAAATAAAATACCT
+ 4.3      16 ..      30   GTAAAAGTTTCATTT              GAT-CT GAAT AGTATT               AAAATAAAATACCTG
+ 1.8      21 ..      31   AGTTTCATTTGATCT                 GAAT AGT ATTA                 AAATAAAATACCTGG
+ 0.9      20 ..      32   AAGTTTCATTTGATC                TGAAT AGT ATTAA                AATAAAATACCTGGA
+ 1.6      13 ..      33   xxxGTAAAAGTTTCA           TTTGAT-CT GAAT AGTATTAAA            ATAAAATACCTGGAT
+ 3.5      18 ..      34   AAAAGTTTCATTTGA              TCTGAAT AGT ATTAAAA              TAAAATACCTGGATG
+ 2.6      17 ..      35   TAAAAGTTTCATTTG             ATCTGAAT AGT ATTAAAAT             AAAATACCTGGATGA
+ 3.8      24 ..      36   TTCATTTGATCTGAA                TAGT ATTAA AATA                AAATACCTGGATGAG
+ 2.8      26 ..      37   CATTTGATCTGAATA                GTAT TAAA ATAA                 AATACCTGGATGAGG
+ 1.8      28 ..      38   TTTGATCTGAATAGT                 ATTA AAA TAAA                 ATACCTGGATGAGGA
+ 0.9      27 ..      39   ATTTGATCTGAATAG                TATTA AAA TAAAA                TACCTGGATGAGGAA
+ 2.2      26 ..      40   CATTTGATCTGAATA               GTATTA AAA TAAAAT               ACCTGGATGAGGAAG
+ 1.4      27 ..      41   ATTTGATCTGAATAG               TATT AAAATAA AATA               CCTGGATGAGGAAGA
+-0.9      26 ..      42   CATTTGATCTGAATA              GTATT AAAATAA AATAC              CTGGATGAGGAAGAT
+ 2.6      25 ..      43   TCATTTGATCTGAAT             AGTATT AAAATAA AATACC             TGGATGAGGAAGATG
+ 4.2      25 ..      44   TCATTTGATCTGAAT            AG-TATT AAAATAA AATACCT            GGATGAGGAAGATGA
+ 5.4      35 ..      45   TGAATAGTATTAAAA                 TA AAATACC TG                 GATGAGGAAGATGAA
+ 7.9      35 ..      46   TGAATAGTATTAAAA                TAA AATACC TGG                 ATGAGGAAGATGAAG
+ 8.1      35 ..      47   TGAATAGTATTAAAA                T AAAATACCTGG A                TGAGGAAGATGAAGA
+ 6.1      38 ..      48   ATAGTATTAAAATAA                 A ATACCTGGA T                 GAGGAAGATGAAGAG
+ 5.7      38 ..      49   ATAGTATTAAAATAA                AAT ACCTGG ATG                 AGGAAGATGAAGAGx
+ 6.1      40 ..      50   AGTATTAAAATAAAA                 T ACCTGGATG A                 GGAAGATGAAGAGxx
+ 6.5      40 ..      51   AGTATTAAAATAAAA                TAC CTGGAT GAG                 GAAGATGAAGAGxxx
+-2.5      42 ..      52   TATTAAAATAAAATA                 CCT GGATG AGG                 AAGATGAAGAGxxxx
+   1      41 ..      53   GTATTAAAATAAAAT                ACCT GGATG AGGA                AGATGAAGAGxxxxx
+ 0.1      40 ..      54   AGTATTAAAATAAAA               TACCT GGATG AGGAA               GATGAAGAGxxxxxx
+ 3.6      39 ..      55   TAGTATTAAAATAAA              ATACCT GGATG AGGAAG              ATGAAGAGxxxxxxx
+ 7.1      38 ..      56   ATAGTATTAAAATAA             AATACCT GGATG AGGAAGA             TGAAGAGxxxxxxxx
+ 3.2      47 ..      57   AAATAAAATACCTGG                 AT GAGGAAG AT                 GAAGAGxxxxxxxxx
+ 6.7      46 ..      58   AAAATAAAATACCTG                GAT GAGGAAG ATG                AAGAGxxxxxxxxxx
+ 5.7      48 ..      59   AATAAAATACCTGGA                TGA GGAAGA TGA                 AGAGxxxxxxxxxxx
+ 8.1      48 ..      60   AATAAAATACCTGGA                T GAGGAAGATGA A                GAGxxxxxxxxxxxx
+   7      43 ..      61   ATTAAAATAAAATAC             CTGGAT GAGGAAG ATGAAG             AGxxxxxxxxxxxxx
+None      52 ..      62   AAATACCTGGATGAG                  GAAGATGAAGA                  Gxxxxxxxxxxxxxx

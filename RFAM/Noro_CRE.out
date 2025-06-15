@@ -1,0 +1,42 @@
+>HM802552.1:355-406 Norovirus Hu/GII.4/Hong Kong/CU050852/2005/CHN RNA-dependent RNA polymerase gene, partial cds; and VP1 and VP2 genes, complete cds FORWARD
+ 6.1       1 ..      11   xxxxxxxxxxxxxxx                AGTGG TCA CC-C-                GCACCACATGCGGAA
+ 3.4       2 ..      12   xxxxxxxxxxxxxxA                 GTGG TCA CCCG                 CACCACATGCGGAAA
+-3.6       2 ..      13   xxxxxxxxxxxxxxA                GTGG TCAC CCGC                 ACCACATGCGGAAAA
+-0.1       1 ..      14   xxxxxxxxxxxxxxx               AGTGG TCAC CCGCA                CCACATGCGGAAAAA
+ 0.5       2 ..      15   xxxxxxxxxxxxxxA               GTG GTCACCCG CAC                CACATGCGGAAAAAC
+-0.5       4 ..      16   xxxxxxxxxxxxAGT                GGT CACCCGC ACC                ACATGCGGAAAAACG
+-1.4       3 ..      17   xxxxxxxxxxxxxAG               TGGT CACCCGC ACCA               CATGCGGAAAAACGA
+-3.7       2 ..      18   xxxxxxxxxxxxxxA              GTGGT CACCCGC ACCAC              ATGCGGAAAAACGAC
+-0.2       1 ..      19   xxxxxxxxxxxxxxx             AGTGGT CACCCGC ACCACA             TGCGGAAAAACGACT
+ 1.4       1 ..      20   xxxxxxxxxxxxxxx            A-GTGGT CACCCGC ACCACAT            GCGGAAAAACGACTG
+   4      11 ..      21   xxxxxAGTGGTCACC                 CG CACCACA TG                 CGGAAAAACGACTGC
+-2.5      12 ..      22   xxxxAGTGGTCACCC                 GCA CCACA TGC                 GGAAAAACGACTGCT
+-4.8      11 ..      23   xxxxxAGTGGTCACC                CGCA CCACA TGCG                GAAAAACGACTGCTG
+-7.1      10 ..      24   xxxxxxAGTGGTCAC               CCGCA CCACA TGCGG               AAAAACGACTGCTGG
+-3.6       9 ..      25   xxxxxxxAGTGGTCA              CCCGCA CCACA TGCGGA              AAAACGACTGCTGGA
+-0.1       8 ..      26   xxxxxxxxAGTGGTC             ACCCGCA CCACA TGCGGAA             AAACGACTGCTGGAA
+ 3.4       7 ..      27   xxxxxxxxxAGTGGT            CACCCGCA CCACA TGCGGAAA            AACGACTGCTGGAAC
+ 2.5       6 ..      28   xxxxxxxxxxAGTGG           TCACCCGCA CCACA TGCGGAAAA           ACGACTGCTGGAACG
+   6       5 ..      29   xxxxxxxxxxxAGTG          GTCACCCGCA CCACA TGCGGAAAAA          CGACTGCTGGAACGG
+ 3.7       4 ..      30   xxxxxxxxxxxxAGT         GGTCACCCGCA CCACA TGCGGAAAAAC         GACTGCTGGAACGGG
+   5       3 ..      31   xxxxxxxxxxxxxAG        TGGTCACCCGCA CCACA TGCGGAAAAACG        ACTGCTGGAACGGGG
+ 2.9      21 ..      32   TCACCCGCACCACAT                GCG GAAAAA CGA                 CTGCTGGAACGGGGA
+ 3.1      21 ..      33   TCACCCGCACCACAT               G-CG GAAAAA CGAC                TGCTGGAACGGGGAA
+   5      23 ..      34   ACCCGCACCACATGC                GG AAAAACGA CT                 GCTGGAACGGGGAAT
+ 2.7      22 ..      35   CACCCGCACCACATG               CGG AAAAACGA CTG                CTGGAACGGGGAATC
+ 0.4      21 ..      36   TCACCCGCACCACAT              GCGG AAAAACGA CTGC               TGGAACGGGGAATCC
+ 3.9      20 ..      37   GTCACCCGCACCACA             TGCGG AAAAACGA CTGCT              GGAACGGGGAATCCT
+ 3.2      18 ..      38   TGGTCACCCGCACCA           CATGCGG AAAAACGA CTGC-TG            GAACGGGGAATCCTx
+ 3.7      15 ..      39   xAGTGGTCACCCGCA         CCA-CATGCG GAAAAA CGACTGCTGG          AACGGGGAATCCTxx
+ 5.8      29 ..      40   ACCACATGCGGAAAA                ACGA CTGC TGGA                 ACGGGGAATCCTxxx
+   7      31 ..      41   CACATGCGGAAAAAC                 GACT GCT GGAA                 CGGGGAATCCTxxxx
+ 5.7      31 ..      42   CACATGCGGAAAAAC                G ACTGCTGGAA C                 GGGGAATCCTxxxxx
+ 3.4      30 ..      43   CCACATGCGGAAAAA               CG ACTGCTGGAA CG                GGGAATCCTxxxxxx
+ 0.7      33 ..      44   CATGCGGAAAAACGA                CTG CTGGAA CGG                 GGAATCCTxxxxxxx
+ 1.2      35 ..      45   TGCGGAAAAACGACT                 GCTG GAA CGGG                 GAATCCTxxxxxxxx
+ 2.5      34 ..      46   ATGCGGAAAAACGAC                TGCTG GAA CGGGG                AATCCTxxxxxxxxx
+ 4.3       6 ..      47   xxxxxxxxxxAGTGG TCACCCGCACCA-CATGCG GAAAAA CGACTGCTGGAACGGG-GA ATCCTxxxxxxxxxx
+ 6.6      34 ..      48   ATGCGGAAAAACGAC               TGCT GGAACGG GGAA               TCCTxxxxxxxxxxx
+   7      39 ..      49   GAAAAACGACTGCTG                 GAAC GGG GAAT                 CCTxxxxxxxxxxxx
+ 2.8      39 ..      50   GAAAAACGACTGCTG                GA ACGGGGAA TC                 CTxxxxxxxxxxxxx
+ 0.5      38 ..      51   GGAAAAACGACTGCT               GGA ACGGGGAA TCC                Txxxxxxxxxxxxxx

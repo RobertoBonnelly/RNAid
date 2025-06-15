@@ -1,0 +1,24 @@
+>URS0001A23874 ncRNA from 1 species FORWARD
+-3.9       1 ..      11   xxxxxxxxxxxxxxx                 CCG CUGGU CGG                 AAACCAGCGGCUAAC
+ 2.1       1 ..      12   xxxxxxxxxxxxxxx                -CCG CUGGU CGGA                AACCAGCGGCUAACC
+ 8.1       1 ..      13   xxxxxxxxxxxxxxx               --CCG CUGGU CGGAA               ACCAGCGGCUAACCC
+None       4 ..      14   xxxxxxxxxxxxCCG                  CUGGUCGGAAA                  CCAGCGGCUAACCCA
+ 6.7       3 ..      15   xxxxxxxxxxxxxCC                G CUGGUCGGAAA C                CAGCGGCUAACCCAA
+ 0.4       6 ..      16   xxxxxxxxxxCCGCU                 GG UCGGAAA CC                 AGCGGCUAACCCAAG
+ 3.9       5 ..      17   xxxxxxxxxxxCCGC                UGG UCGGAAA CCA                GCGGCUAACCCAAGG
+ 1.6       4 ..      18   xxxxxxxxxxxxCCG               CUGG UCGGAAA CCAG               CGGCUAACCCAAGGA
+-0.7       3 ..      19   xxxxxxxxxxxxxCC              GCUGG UCGGAAA CCAGC              GGCUAACCCAAGGAA
+  -3       2 ..      20   xxxxxxxxxxxxxxC             CGCUGG UCGGAAA CCAGCG             GCUAACCCAAGGAAx
+-5.3       1 ..      21   xxxxxxxxxxxxxxx            CCGCUGG UCGGAAA CCAGCGG            CUAACCCAAGGAAxx
+ 0.7       1 ..      22   xxxxxxxxxxxxxxx           -CCGCUGG UCGGAAA CCAGCGGC           UAACCCAAGGAAxxx
+ 3.4      13 ..      23   xxxCCGCUGGUCGGA                 AACC AGC GGCU                 AACCCAAGGAAxxxx
+ 6.9      12 ..      24   xxxxCCGCUGGUCGG                AAACC AGC GGCUA                ACCCAAGGAAxxxxx
+None      15 ..      25   xCCGCUGGUCGGAAA                  CCAGCGGCUAA                  CCCAAGGAAxxxxxx
+ 8.1      10 ..      26   xxxxxxCCGCUGGUC              GGAAACC AGC GGCUAAC              CCAAGGAAxxxxxxx
+ 6.2      17 ..      27   CGCUGGUCGGAAACC                 AG CGGCUAA CC                 CAAGGAAxxxxxxxx
+ 1.1      18 ..      28   GCUGGUCGGAAACCA                GCGG CUAA CC-C                 AAGGAAxxxxxxxxx
+ 1.9      19 ..      29   CUGGUCGGAAACCAG                 CGG CUAAC CCA                 AGGAAxxxxxxxxxx
+ 5.4      18 ..      30   GCUGGUCGGAAACCA                GCGG CUAAC CCAA                GGAAxxxxxxxxxxx
+ 5.6      16 ..      31   CCGCUGGUCGGAAAC              CAGCGG CUAA CCCAAG               GAAxxxxxxxxxxxx
+ 3.3      15 ..      32   xCCGCUGGUCGGAAA             CCAGCGG CUAA CCCAAGG              AAxxxxxxxxxxxxx
+ 6.8      14 ..      33   xxCCGCUGGUCGGAA            ACCAGCGG CUAA CCCAAGGA             Axxxxxxxxxxxxxx

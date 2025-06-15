@@ -1,0 +1,94 @@
+>URS0000D6C420 ncRNA from 1 species FORWARD
+None       1 ..      11   xxxxxxxxxxxxxxx                  AUACACCAGCA                  GUAGGACUCAGCGAC
+None       2 ..      12   xxxxxxxxxxxxxxA                  UACACCAGCAG                  UAGGACUCAGCGACC
+ 6.2       3 ..      13   xxxxxxxxxxxxxAU                 AC ACCAGCA GU                 AGGACUCAGCGACCG
+ 7.7       4 ..      14   xxxxxxxxxxxxAUA                 CAC CAGCA GUA                 GGACUCAGCGACCGU
+ 4.4       4 ..      15   xxxxxxxxxxxxAUA                CACC AGCA GUAG                 GACUCAGCGACCGUC
+ 0.4       6 ..      16   xxxxxxxxxxAUACA                 CC AGCAGUA GG                 ACUCAGCGACCGUCA
+ 3.9       5 ..      17   xxxxxxxxxxxAUAC                ACC AGCAGUA GGA                CUCAGCGACCGUCAC
+ 7.4       4 ..      18   xxxxxxxxxxxxAUA               CACC AGCAGUA GGAC               UCAGCGACCGUCACA
+ 7.2       8 ..      19   xxxxxxxxAUACACC                AG CAGUAGGA CU                 CAGCGACCGUCACAA
+ 5.7       9 ..      20   xxxxxxxAUACACCA                G CAGUAGGACU C                 AGCGACCGUCACAAC
+ 6.2      11 ..      21   xxxxxAUACACCAGC                 AG UAGGACU CA                 GCGACCGUCACAACA
+ 3.9      10 ..      22   xxxxxxAUACACCAG                CAG UAGGACU CAG                CGACCGUCACAACAA
+ 1.6       9 ..      23   xxxxxxxAUACACCA               GCAG UAGGACU CAGC               GACCGUCACAACAAG
+ 5.1       8 ..      24   xxxxxxxxAUACACC              AGCAG UAGGACU CAGCG              ACCGUCACAACAAGG
+ 8.6       7 ..      25   xxxxxxxxxAUACAC             CAGCAG UAGGACU CAGCGA             CCGUCACAACAAGGU
+ 1.9      16 ..      26   AUACACCAGCAGUAG                 GAC UCAGC GAC                 CGUCACAACAAGGUU
+-0.4      15 ..      27   xAUACACCAGCAGUA                GGAC UCAGC GACC                GUCACAACAAGGUUG
+ 3.1      14 ..      28   xxAUACACCAGCAGU               AGGAC UCAGC GACCG               UCACAACAAGGUUGU
+ 3.4      19 ..      29   CACCAGCAGUAGGAC                 UCAG CGA CCGU                 CACAACAAGGUUGUG
+ 4.3      12 ..      30   xxxxAUACACCAGCA             GUAGGAC UCAGC GACCGUC             ACAACAAGGUUGUGC
+ 6.2      21 ..      31   CCAGCAGUAGGACUC                 AG CGACCGU CA                 CAACAAGGUUGUGCU
+ 1.9      22 ..      32   CAGCAGUAGGACUCA                 GCG ACCGU CAC                 AACAAGGUUGUGCUG
+ 5.4      21 ..      33   CCAGCAGUAGGACUC                AGCG ACCGU CACA                ACAAGGUUGUGCUGG
+ 8.9      20 ..      34   ACCAGCAGUAGGACU               CAGCG ACCGU CACAA               CAAGGUUGUGCUGGU
+ 5.7      24 ..      35   GCAGUAGGACUCAGC                G ACCGUCACAA C                 AAGGUUGUGCUGGUA
+None      26 ..      36   AGUAGGACUCAGCGA                  CCGUCACAACA                  AGGUUGUGCUGGUAU
+ 8.7      26 ..      37   AGUAGGACUCAGCGA                CCG UCACAA CAA                 GGUUGUGCUGGUAUC
+ 5.7      27 ..      38   GUAGGACUCAGCGAC                C GUCACAACAA G                 GUUGUGCUGGUAUCC
+ 3.4      26 ..      39   AGUAGGACUCAGCGA               CC GUCACAACAA GG                UUGUGCUGGUAUCCG
+ 6.9      25 ..      40   CAGUAGGACUCAGCG              ACC GUCACAACAA GGU               UGUGCUGGUAUCCGA
+ 8.7      30 ..      41   GGACUCAGCGACCGU                CAC AACAAG GUU                 GUGCUGGUAUCCGAC
+ 3.4      32 ..      42   ACUCAGCGACCGUCA                 CAAC AAG GUUG                 UGCUGGUAUCCGACG
+ 6.9      31 ..      43   GACUCAGCGACCGUC                ACAAC AAG GUUGU                GCUGGUAUCCGACGG
+ 4.6      30 ..      44   GGACUCAGCGACCGU               CACAAC AAG GUUGUG               CUGGUAUCCGACGGU
+ 7.2      34 ..      45   UCAGCGACCGUCACA                AC AAGGUUGU GC                 UGGUAUCCGACGGUC
+None      36 ..      46   AGCGACCGUCACAAC                  AAGGUUGUGCU                  GGUAUCCGACGGUCG
+ 6.7      35 ..      47   CAGCGACCGUCACAA                C AAGGUUGUGCU G                GUAUCCGACGGUCGU
+ 6.4      35 ..      48   CAGCGACCGUCACAA               CAAG GUUGUG CUGG                UAUCCGACGGUCGUA
+None      39 ..      49   GACCGUCACAACAAG                  GUUGUGCUGGU                  AUCCGACGGUCGUAU
+None      40 ..      50   ACCGUCACAACAAGG                  UUGUGCUGGUA                  UCCGACGGUCGUAUA
+None      41 ..      51   CCGUCACAACAAGGU                  UGUGCUGGUAU                  CCGACGGUCGUAUAG
+ 4.7      42 ..      52   CGUCACAACAAGGUU                 G UGCUGGUAU C                 CGACGGUCGUAUAGC
+ 5.4      38 ..      53   CGACCGUCACAACAA              GG UUGUGCUGGUAU CC               GACGGUCGUAUAGCC
+ 6.1      44 ..      54   UCACAACAAGGUUGU                GCUGG UAU CC-G-                ACGGUCGUAUAGCCC
+ 3.4      45 ..      55   CACAACAAGGUUGUG                 CUGG UAU CCGA                 CGGUCGUAUAGCCCU
+ 1.1      44 ..      56   UCACAACAAGGUUGU                GCUGG UAU CCGAC                GGUCGUAUAGCCCUG
+ 4.6      43 ..      57   GUCACAACAAGGUUG               UGCUGG UAU CCGACG               GUCGUAUAGCCCUGU
+ 4.9      45 ..      58   CACAACAAGGUUGUG               CUG GUAUCCGA CGG                UCGUAUAGCCCUGUC
+ 8.4      44 ..      59   UCACAACAAGGUUGU              GCUG GUAUCCGA CGGU               CGUAUAGCCCUGUCU
+ 3.4      50 ..      60   CAAGGUUGUGCUGGU                 AUCC GAC GGUC                 GUAUAGCCCUGUCUU
+ 6.9      49 ..      61   ACAAGGUUGUGCUGG                UAUCC GAC GGUCG                UAUAGCCCUGUCUUG
+ 1.9      52 ..      62   AGGUUGUGCUGGUAU                 CCG ACGGU CGU                 AUAGCCCUGUCUUGC
+ 5.4      51 ..      63   AAGGUUGUGCUGGUA                UCCG ACGGU CGUA                UAGCCCUGUCUUGCA
+ 8.9      50 ..      64   CAAGGUUGUGCUGGU               AUCCG ACGGU CGUAU               AGCCCUGUCUUGCAG
+None      55 ..      65   UUGUGCUGGUAUCCG                  ACGGUCGUAUA                  GCCCUGUCUUGCAGG
+ 4.7      56 ..      66   UGUGCUGGUAUCCGA                 C GGUCGUAUA G                 CCCUGUCUUGCAGGU
+ 4.7      57 ..      67   GUGCUGGUAUCCGAC                 G GUCGUAUAG C                 CCUGUCUUGCAGGUU
+ 1.4      57 ..      68   GUGCUGGUAUCCGAC                GG UCGUAUAG CC                 CUGUCUUGCAGGUUG
+-0.4      57 ..      69   GUGCUGGUAUCCGAC                GGUC GUAUA GCCC                UGUCUUGCAGGUUGC
+ 3.1      56 ..      70   UGUGCUGGUAUCCGA               CGGUC GUAUA GCCCU               GUCUUGCAGGUUGCC
+ 3.3      56 ..      71   UGUGCUGGUAUCCGA              C-GGUC GUAUA GCCCUG              UCUUGCAGGUUGCCU
+ 6.8      55 ..      72   UUGUGCUGGUAUCCG             AC-GGUC GUAUA GCCCUGU             CUUGCAGGUUGCCUU
+ 4.5      54 ..      73   GUUGUGCUGGUAUCC            GAC-GGUC GUAUA GCCCUGUC            UUGCAGGUUGCCUUG
+   8      53 ..      74   GGUUGUGCUGGUAUC           CGAC-GGUC GUAUA GCCCUGUCU           UGCAGGUUGCCUUGC
+ 8.7      64 ..      75   UAUCCGACGGUCGUA                UAG CCCUGU CUU                 GCAGGUUGCCUUGCA
+None      66 ..      76   UCCGACGGUCGUAUA                  GCCCUGUCUUG                  CAGGUUGCCUUGCAC
+ 1.4      66 ..      77   UCCGACGGUCGUAUA                GC CCUGUCUU GC                 AGGUUGCCUUGCACU
+ 4.9      65 ..      78   AUCCGACGGUCGUAU               AGC CCUGUCUU GCA                GGUUGCCUUGCACUG
+ 1.9      69 ..      79   GACGGUCGUAUAGCC                 CUG UCUUG CAG                 GUUGCCUUGCACUGA
+-0.4      68 ..      80   CGACGGUCGUAUAGC                CCUG UCUUG CAGG                UUGCCUUGCACUGAC
+ 3.1      67 ..      81   CCGACGGUCGUAUAG               CCCUG UCUUG CAGGU               UGCCUUGCACUGACG
+ 6.6      66 ..      82   UCCGACGGUCGUAUA              GCCCUG UCUUG CAGGUU              GCCUUGCACUGACGU
+ 4.7      73 ..      83   GUCGUAUAGCCCUGU                 C UUGCAGGUU G                 CCUUGCACUGACGUG
+   7      66 ..      84   UCCGACGGUCGUAUA            GC--CCUG UCUUG CAGGUUGC            CUUGCACUGACGUGC
+ 1.9      75 ..      85   CGUAUAGCCCUGUCU                 UGC AGGUU GCC                 UUGCACUGACGUGCC
+ 5.4      74 ..      86   UCGUAUAGCCCUGUC                UUGC AGGUU GCCU                UGCACUGACGUGCCG
+ 3.4      77 ..      87   UAUAGCCCUGUCUUG                 CAGG UUG CCUU                 GCACUGACGUGCCGC
+ 3.6      77 ..      88   UAUAGCCCUGUCUUG                C-AGG UUG CCUUG                CACUGACGUGCCGCG
+ 1.3      76 ..      89   GUAUAGCCCUGUCUU               GC-AGG UUG CCUUGC               ACUGACGUGCCGCGC
+ 4.8      75 ..      90   CGUAUAGCCCUGUCU              UGC-AGG UUG CCUUGCA              CUGACGUGCCGCGCx
+ 3.4      81 ..      91   GCCCUGUCUUGCAGG                 UUGC CUU GCAC                 UGACGUGCCGCGCxx
+ 6.2      82 ..      92   CCCUGUCUUGCAGGU                 UG CCUUGCA CU                 GACGUGCCGCGCxxx
+ 7.9      77 ..      93   UAUAGCCCUGUCUUG              CAG GUUGCCUUGCA CUG              ACGUGCCGCGCxxxx
+ 6.2      84 ..      94   CUGUCUUGCAGGUUG                 CC UUGCACU GA                 CGUGCCGCGCxxxxx
+ 3.9      83 ..      95   CCUGUCUUGCAGGUU                GCC UUGCACU GAC                GUGCCGCGCxxxxxx
+ 5.7      85 ..      96   UGUCUUGCAGGUUGC                C UUGCACUGAC G                 UGCCGCGCxxxxxxx
+ 8.7      86 ..      97   GUCUUGCAGGUUGCC                UUG CACUGA CGU                 GCCGCGCxxxxxxxx
+ 6.4      85 ..      98   UGUCUUGCAGGUUGC               CUUG CACUGA CGUG                CCGCGCxxxxxxxxx
+-1.4      88 ..      99   CUUGCAGGUUGCCUU                GCAC UGAC GUGC                 CGCGCxxxxxxxxxx
+ 2.1      87 ..     100   UCUUGCAGGUUGCCU               UGCAC UGAC GUGCC                GCGCxxxxxxxxxxx
+ 1.9      91 ..     101   GCAGGUUGCCUUGCA                 CUG ACGUG CCG                 CGCxxxxxxxxxxxx
+ 4.4      88 ..     102   CUUGCAGGUUGCCUU               GC ACUGACGUGCC GC               GCxxxxxxxxxxxxx
+ 3.1      89 ..     103   UUGCAGGUUGCCUUG               CACUG ACGUG CCGCG               Cxxxxxxxxxxxxxx

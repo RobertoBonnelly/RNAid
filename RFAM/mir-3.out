@@ -1,0 +1,59 @@
+>URS00003F4C59 pre_miRNA from 4 species FORWARD
+None       1 ..      11   xxxxxxxxxxxxxxx                  AUUAUACGACA                  AACCUUGUUCGGUUU
+None       2 ..      12   xxxxxxxxxxxxxxA                  UUAUACGACAA                  ACCUUGUUCGGUUUU
+None       3 ..      13   xxxxxxxxxxxxxAU                  UAUACGACAAA                  CCUUGUUCGGUUUUG
+None       4 ..      14   xxxxxxxxxxxxAUU                  AUACGACAAAC                  CUUGUUCGGUUUUGC
+None       5 ..      15   xxxxxxxxxxxAUUA                  UACGACAAACC                  UUGUUCGGUUUUGCC
+ 7.7       6 ..      16   xxxxxxxxxxAUUAU                 ACG ACAAA CCU                 UGUUCGGUUUUGCCA
+ 8.7       6 ..      17   xxxxxxxxxxAUUAU                ACG ACAAAC CUU                 GUUCGGUUUUGCCAA
+ 5.7       7 ..      18   xxxxxxxxxAUUAUA                C GACAAACCUU G                 UUCGGUUUUGCCAAU
+ 6.2       9 ..      19   xxxxxxxAUUAUACG                 AC AAACCUU GU                 UCGGUUUUGCCAAUU
+None      10 ..      20   xxxxxxAUUAUACGA                  CAAACCUUGUU                  CGGUUUUGCCAAUUU
+ 7.7       8 ..      21   xxxxxxxxAUUAUAC               G ACAAACCUUGUU C                GGUUUUGCCAAUUUC
+ 5.4       7 ..      22   xxxxxxxxxAUUAUA              CG ACAAACCUUGUU CG               GUUUUGCCAAUUUCC
+ 5.4      13 ..      23   xxxAUUAUACGACAA                ACC UUGUUC GG-                 UUUUGCCAAUUUCCA
+ 2.9      13 ..      24   xxxAUUAUACGACAA                ACC UUGUUC GGU                 UUUGCCAAUUUCCAA
+ 6.4      12 ..      25   xxxxAUUAUACGACA               AACC UUGUUC GGUU                UUGCCAAUUUCCAAG
+None      16 ..      26   AUUAUACGACAAACC                  UUGUUCGGUUU                  UGCCAAUUUCCAAGC
+None      17 ..      27   UUAUACGACAAACCU                  UGUUCGGUUUU                  GCCAAUUUCCAAGCC
+ 7.7      15 ..      28   xAUUAUACGACAAAC               C UUGUUCGGUUUU G                CCAAUUUCCAAGCCA
+ 5.7      18 ..      29   UAUACGACAAACCUU                G UUCGGUUUUG C                 CAAUUUCCAAGCCAG
+ 6.7      18 ..      30   UAUACGACAAACCUU                G UUCGGUUUUGC C                AAUUUCCAAGCCAGC
+ 1.9      21 ..      31   ACGACAAACCUUGUU                 CGG UUUUG CCA                 AUUUCCAAGCCAGCA
+ 5.4      20 ..      32   UACGACAAACCUUGU                UCGG UUUUG CCAA                UUUCCAAGCCAGCAC
+ 8.9      19 ..      33   AUACGACAAACCUUG               UUCGG UUUUG CCAAU               UUCCAAGCCAGCACU
+None      24 ..      34   ACAAACCUUGUUCGG                  UUUUGCCAAUU                  UCCAAGCCAGCACUG
+None      25 ..      35   CAAACCUUGUUCGGU                  UUUGCCAAUUU                  CCAAGCCAGCACUGG
+ 7.7      23 ..      36   GACAAACCUUGUUCG               G UUUUGCCAAUUU C                CAAGCCAGCACUGGG
+ 5.4      22 ..      37   CGACAAACCUUGUUC              GG UUUUGCCAAUUU CC               AAGCCAGCACUGGGU
+ 7.2      27 ..      38   AACCUUGUUCGGUUU                UG CCAAUUUC CA                 AGCCAGCACUGGGUA
+None      29 ..      39   CCUUGUUCGGUUUUG                  CCAAUUUCCAA                  GCCAGCACUGGGUAA
+ 4.7      30 ..      40   CUUGUUCGGUUUUGC                 C AAUUUCCAA G                 CCAGCACUGGGUAAA
+ 3.4      28 ..      41   ACCUUGUUCGGUUUU               GC CAAUUUCCAA GC                CAGCACUGGGUAAAG
+ 5.9      28 ..      42   ACCUUGUUCGGUUUU               GCC AAUUUCCAA GCC               AGCACUGGGUAAAGU
+None      33 ..      43   GUUCGGUUUUGCCAA                  UUUCCAAGCCA                  GCACUGGGUAAAGUU
+ 8.7      30 ..      44   CUUGUUCGGUUUUGC               C AAUUUCCAAGCCA G               CACUGGGUAAAGUUU
+ 6.2      35 ..      45   UCGGUUUUGCCAAUU                 UC CAAGCCA GC                 ACUGGGUAAAGUUUG
+ 8.7      35 ..      46   UCGGUUUUGCCAAUU                UCC AAGCCA GCA                 CUGGGUAAAGUUUGU
+None      37 ..      47   GGUUUUGCCAAUUUC                  CAAGCCAGCAC                  UGGGUAAAGUUUGUC
+None      38 ..      48   GUUUUGCCAAUUUCC                  AAGCCAGCACU                  GGGUAAAGUUUGUCC
+ 6.7      37 ..      49   GGUUUUGCCAAUUUC                C AAGCCAGCACU G                GGUAAAGUUUGUCCU
+ 4.4      36 ..      50   CGGUUUUGCCAAUUU               CC AAGCCAGCACU GG               GUAAAGUUUGUCCUA
+ 0.4      41 ..      51   UUGCCAAUUUCCAAG                 CC AGCACUG GG                 UAAAGUUUGUCCUAU
+ 3.9      40 ..      52   UUUGCCAAUUUCCAA                GCC AGCACUG GGU                AAAGUUUGUCCUAUA
+ 7.4      39 ..      53   UUUUGCCAAUUUCCA               AGCC AGCACUG GGUA               AAGUUUGUCCUAUAA
+None      44 ..      54   CCAAUUUCCAAGCCA                  GCACUGGGUAA                  AGUUUGUCCUAUAAU
+None      45 ..      55   CAAUUUCCAAGCCAG                  CACUGGGUAAA                  GUUUGUCCUAUAAUx
+ 5.7      45 ..      56   CAAUUUCCAAGCCAG                C ACUGGGUAAA G                 UUUGUCCUAUAAUxx
+ 7.2      46 ..      57   AAUUUCCAAGCCAGC                AC UGGGUAAA GU                 UUGUCCUAUAAUxxx
+None      48 ..      58   UUUCCAAGCCAGCAC                  UGGGUAAAGUU                  UGUCCUAUAAUxxxx
+None      49 ..      59   UUCCAAGCCAGCACU                  GGGUAAAGUUU                  GUCCUAUAAUxxxxx
+ 7.7      47 ..      60   AUUUCCAAGCCAGCA               C UGGGUAAAGUUU G                UCCUAUAAUxxxxxx
+None      51 ..      61   CCAAGCCAGCACUGG                  GUAAAGUUUGU                  CCUAUAAUxxxxxxx
+ 5.7      51 ..      62   CCAAGCCAGCACUGG                G UAAAGUUUGU C                 CUAUAAUxxxxxxxx
+ 3.4      50 ..      63   UCCAAGCCAGCACUG               GG UAAAGUUUGU CC                UAUAAUxxxxxxxxx
+ 6.9      49 ..      64   UUCCAAGCCAGCACU              GGG UAAAGUUUGU CCU               AUAAUxxxxxxxxxx
+ 8.7      54 ..      65   AGCCAGCACUGGGUA                AAG UUUGUC CUA                 UAAUxxxxxxxxxxx
+None      56 ..      66   CCAGCACUGGGUAAA                  GUUUGUCCUAU                  AAUxxxxxxxxxxxx
+None      57 ..      67   CAGCACUGGGUAAAG                  UUUGUCCUAUA                  AUxxxxxxxxxxxxx
+None      58 ..      68   AGCACUGGGUAAAGU                  UUGUCCUAUAA                  Uxxxxxxxxxxxxxx

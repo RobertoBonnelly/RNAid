@@ -1,0 +1,67 @@
+>AJ224028.1:3-79 Homo sapiens Z23 small nucleolar RNA gene FORWARD
+ 1.8       1 ..      11   xxxxxxxxxxxxxxx                 CA GAATACA TG                 ATGATCTCAATCCAA
+ 7.8       1 ..      12   xxxxxxxxxxxxxxx                -CA GAATACA TGA                TGATCTCAATCCAAC
+ 7.1       2 ..      13   xxxxxxxxxxxxxxC                A GAATACATGA T                 GATCTCAATCCAACT
+ 4.7       4 ..      14   xxxxxxxxxxxxCAG                 AAT ACATG ATG                 ATCTCAATCCAACTT
+ 6.9       5 ..      15   xxxxxxxxxxxCAGA                 ATA CATGA TGA                 TCTCAATCCAACTTG
+   2       5 ..      16   xxxxxxxxxxxCAGA                ATACA TGA TG-AT                CTCAATCCAACTTGA
+ 3.7       3 ..      17   xxxxxxxxxxxxxCA               GAATA CATGA TGATC               TCAATCCAACTTGAA
+ 2.8       2 ..      18   xxxxxxxxxxxxxxC              AGAATA CATGA TGATCT              CAATCCAACTTGAAC
+ 4.8       3 ..      19   xxxxxxxxxxxxxCA             GA-ATACA TGA TG-ATCTC             AATCCAACTTGAACT
+-1.1      10 ..      20   xxxxxxCAGAATACA                 TGA TGATC TCA                 ATCCAACTTGAACTC
+ 2.4       9 ..      21   xxxxxxxCAGAATAC                ATGA TGATC TCAA                TCCAACTTGAACTCT
+ 3.2      12 ..      22   xxxxCAGAATACATG                 AT GATCTCA AT                 CCAACTTGAACTCTC
+ 0.9      11 ..      23   xxxxxCAGAATACAT                GAT GATCTCA ATC                CAACTTGAACTCTCT
+ 1.4      13 ..      24   xxxCAGAATACATGA                TGAT CTCA ATCC                 AACTTGAACTCTCTC
+   3      13 ..      25   xxxCAGAATACATGA               TG-AT CTCA ATCCA                ACTTGAACTCTCTCA
+ 6.1      16 ..      26   CAGAATACATGATGA                 T CTCAATCCA A                 CTTGAACTCTCTCAC
+ 4.2      11 ..      27   xxxxxCAGAATACAT             GATG-AT CTCA ATCCAAC              TTGAACTCTCTCACT
+ 7.7      10 ..      28   xxxxxxCAGAATACA            TGATG-AT CTCA ATCCAACT             TGAACTCTCTCACTG
+ 6.2      19 ..      29   AATACATGATGATCT                 CAAT CCA ACTT                 GAACTCTCTCACTGA
+-0.1      19 ..      30   AATACATGATGATCT                CAA TCCAAC TTG                 AACTCTCTCACTGAT
+  -1      18 ..      31   GAATACATGATGATC               TCAA TCCAAC TTGA                ACTCTCTCACTGATT
+ 0.4      22 ..      32   ACATGATGATCTCAA                 TCCA ACT TGAA                 CTCTCTCACTGATTA
+ 3.9      21 ..      33   TACATGATGATCTCA                ATCCA ACT TGAAC                TCTCTCACTGATTAC
+   3      20 ..      34   ATACATGATGATCTC               AATCCA ACT TGAACT               CTCTCACTGATTACT
+ 2.8      14 ..      35   xxCAGAATACATGAT           GATCTCAA TCCAAC TTGAACTC            TCTCACTGATTACTT
+ 6.1      26 ..      36   GATGATCTCAATCCA                 A CTTGAACTC T                 CTCACTGATTACTTG
+ 5.6      11 ..      37   xxxxxCAGAATACAT        GATGATCTCAA TCCAAC TTGAACTC-TC         TCACTGATTACTTGA
+ 8.1      26 ..      38   GATGATCTCAATCCA                A CTTGAACTCTC T                CACTGATTACTTGAT
+ 5.8      28 ..      39   TGATCTCAATCCAAC                TTGA ACTC TCTC                 ACTGATTACTTGATG
+-0.1      29 ..      40   GATCTCAATCCAACT                TGA ACTCTC TCA                 CTGATTACTTGATGA
+ 3.4      28 ..      41   TGATCTCAATCCAAC               TTGA ACTCTC TCAC                TGATTACTTGATGAC
+ 4.7      32 ..      42   CTCAATCCAACTTGA                 ACT CTCTC ACT                 GATTACTTGATGACA
+ 4.7      33 ..      43   TCAATCCAACTTGAA                 C TCTCTCACT G                 ATTACTTGATGACAA
+ 1.8      34 ..      44   CAATCCAACTTGAAC                 TC TCTCACT GA                 TTACTTGATGACAAT
+ 3.3      35 ..      45   AATCCAACTTGAACT                 CTC TCACT GAT                 TACTTGATGACAATA
+ 4.4      32 ..      46   CTCAATCCAACTTGA               ACTC TCTCACT GATT               ACTTGATGACAATAA
+ 6.4      36 ..      47   ATCCAACTTGAACTC                T-CTC ACT GATTA                CTTGATGACAATAAA
+ 5.6      30 ..      48   ATCTCAATCCAACTT             GAACTC TCTCACT GATTAC             TTGATGACAATAAAA
+None      39 ..      49   CAACTTGAACTCTCT                  CACTGATTACT                  TGATGACAATAAAAT
+ 6.1      40 ..      50   AACTTGAACTCTCTC                 A CTGATTACT T                 GATGACAATAAAATA
+ 3.8      39 ..      51   CAACTTGAACTCTCT                CA CTGATTACT TG                ATGACAATAAAATAT
+ 2.9      38 ..      52   CCAACTTGAACTCTC               TCA CTGATTACT TGA               TGACAATAAAATATC
+ 6.3      40 ..      53   AACTTGAACTCTCTC               ACTGA TTAC TTGAT                GACAATAAAATATCT
+   4      39 ..      54   CAACTTGAACTCTCT              CACTGA TTAC TTGATG               ACAATAAAATATCTG
+ 2.5      45 ..      55   GAACTCTCTCACTGA                 TTA CTTGA TGA                 CAATAAAATATCTGA
+   6      44 ..      56   TGAACTCTCTCACTG                ATTA CTTGA TGAC                AATAAAATATCTGAT
+ 5.3      42 ..      57   CTTGAACTCTCTCAC              TGATTA CTTGA TGA-CA              ATAAAATATCTGATA
+ 3.9      48 ..      58   CTCTCTCACTGATTA                CTTG ATGA CAA-                 TAAAATATCTGATAT
+ 1.4      48 ..      59   CTCTCTCACTGATTA                CTTG ATGA CAAT                 AAAATATCTGATATT
+ 2.1      46 ..      60   AACTCTCTCACTGAT              TACTTG ATGA CAA-TA               AAATATCTGATATTC
+ 1.2      45 ..      61   GAACTCTCTCACTGA             TTACTTG ATGA CAA-TAA              AATATCTGATATTCT
+ 1.9      49 ..      62   TCTCTCACTGATTAC               TTGAT GACA ATAAA                ATATCTGATATTCTG
+ 5.4      48 ..      63   CTCTCTCACTGATTA              CTTGAT GACA ATAAAA               TATCTGATATTCTGx
+ 4.5      47 ..      64   ACTCTCTCACTGATT             ACTTGAT GACA ATAAAAT              ATCTGATATTCTGxx
+ 3.6      46 ..      65   AACTCTCTCACTGAT            TACTTGAT GACA ATAAAATA             TCTGATATTCTGxxx
+ 5.7      55 ..      66   ACTGATTACTTGATG                ACA ATAAAA TAT                 CTGATATTCTGxxxx
+ 1.8      57 ..      67   TGATTACTTGATGAC                 AATA AAA TATC                 TGATATTCTGxxxxx
+ 3.4      57 ..      68   TGATTACTTGATGAC                A-ATA AAA TATCT                GATATTCTGxxxxxx
+ 1.1      56 ..      69   CTGATTACTTGATGA               CA-ATA AAA TATCTG               ATATTCTGxxxxxxx
+ 4.6      55 ..      70   ACTGATTACTTGATG              ACA-ATA AAA TATCTGA              TATTCTGxxxxxxxx
+ 4.8      58 ..      71   GATTACTTGATGACA               ATAA AATATC TGAT                ATTCTGxxxxxxxxx
+ 4.7      62 ..      72   ACTTGATGACAATAA                 AAT ATCTG ATA                 TTCTGxxxxxxxxxx
+-2.6      63 ..      73   CTTGATGACAATAAA                 ATAT CTG ATAT                 TCTGxxxxxxxxxxx
+-3.5      62 ..      74   ACTTGATGACAATAA                AATAT CTG ATATT                CTGxxxxxxxxxxxx
+-2.384e-07      61 ..      75   TACTTGATGACAATA               AAATAT CTG ATATTC               TGxxxxxxxxxxxxx
+-0.9      60 ..      76   TTACTTGATGACAAT              AAAATAT CTG ATATTCT              Gxxxxxxxxxxxxxx

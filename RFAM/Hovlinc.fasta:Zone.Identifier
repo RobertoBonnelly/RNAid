@@ -1,0 +1,4 @@
+[ZoneTransfer]
+ZoneId=3
+ReferrerUrl=https://rfam.org/
+HostUrl=https://eutils.ncbi.nlm.nih.gov/entrez/eutils/efetch.fcgi?db=nuccore&id=CM000677.2&rettype=fasta&retmode=text&seq_start=34743680&seq_stop=34743847&strand=1&api_key=b5b1ec23eb825f62f13e74e5215e60cd1208
