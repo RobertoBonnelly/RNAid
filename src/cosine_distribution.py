@@ -3,6 +3,9 @@ import re
 import networkx as nx
 from itertools import product
 from collections import Counter
+import csv
+from tqdm import tqdm
+import gc
 def get_data(hairpins_file, max_energy):
 
     ## empty list
@@ -116,49 +119,74 @@ def build_directed_graph_from_dict(graph_dict):
 
     return G
 
-def find_paths_up_to_length(G, l):
-    """Finds all paths from each node up to length l, sorted by path length."""
-    all_paths = {}
-    for node in G.nodes():
-        stack = [(node, [node])]  # (current_node, current_path)
-        node_paths = []
-        while stack:
-            current_node, current_path = stack.pop()
-            # Add path if it's within the length limit
-            if len(current_path) <= l:
-                node_paths.append(current_path.copy())
-                # Explore neighbors if we haven't reached length limit
-                if len(current_path) < l:
-                    for neighbor in G.successors(current_node):
-                        if neighbor not in current_path:  # Avoid cycles
-                            stack.append((neighbor, current_path + [neighbor]))
-        # Sort paths first by length, then lexicographically
-        node_paths.sort(key=lambda x: (len(x), x))
-        all_paths[node] = node_paths
-    return all_paths
+# def find_paths_up_to_length(G, l):
+#     """Finds all paths from each node up to length l, sorted by path length."""
+#     all_paths = {}
+#     for node in G.nodes():
+#         stack = [(node, [node])]  # (current_node, current_path)
+#         node_paths = []
+#         while stack:
+#             current_node, current_path = stack.pop()
+#             # Add path if it's within the length limit
+#             if len(current_path) <= l:
+#                 node_paths.append(current_path.copy())
+#                 # Explore neighbors if we haven't reached length limit
+#                 if len(current_path) < l:
+#                     for neighbor in G.successors(current_node):
+#                         if neighbor not in current_path:  # Avoid cycles
+#                             stack.append((neighbor, current_path + [neighbor]))
+#         # Sort paths first by length, then lexicographically
+#         node_paths.sort(key=lambda x: (len(x), x))
+#         all_paths[node] = node_paths
+#     return all_paths
 
-def fingerprint(graph, palindromes, max_path_length):
-    '''This function creates a fingerprint by concatenating the relationships between palindromes along a path in a directed graph'''
-    uniq_rel = []
-    rel_list=[]
-    fp = ''
+# def fingerprint(graph, palindromes, max_path_length):
+#     '''This function creates a fingerprint by concatenating the relationships between palindromes along a path in a directed graph'''
+#     uniq_rel = []
+#     rel_list=[]
+#     fp = ''
     
-    #find all the paths up to a certain length starting from each node in the graph
-    all_paths = find_paths_up_to_length(graph, 5)
+#     #find all the paths up to a certain length starting from each node in the graph
+#     all_paths = find_paths_up_to_length(graph, 5)
 
-    #go through every node and path and create a set of unique character strings describing 
-    #the relationships between all nodes (palindromes)
-    for node, paths in all_paths.items():
-        rel=''  #every node has a string built from all the relationships encountered in the paths
-        for path in paths:
-            if (len(path)>1):
-                for i in range(len(path)-1):
-                    rel += relation(palindromes[path[i]], palindromes[path[i+1]])   
-                rel += ';' #separate paths
-        if (rel == ''): #nothing has been added
-            rel = '-' #to indicate that this node is on its own and has no paths to others
-        rel_list.append(rel)
-    return(rel_list)
+#     #go through every node and path and create a set of unique character strings describing 
+#     #the relationships between all nodes (palindromes)
+#     for node, paths in all_paths.items():
+#         rel=''  #every node has a string built from all the relationships encountered in the paths
+#         for path in paths:
+#             if (len(path)>1):
+#                 for i in range(len(path)-1):
+#                     rel += relation(palindromes[path[i]], palindromes[path[i+1]])   
+#                 rel += ';' #separate paths
+#         if (rel == ''): #nothing has been added
+#             rel = '-' #to indicate that this node is on its own and has no paths to others
+#         rel_list.append(rel)
+#     return(rel_list)
+def optimized_fingerprint(graph, palindromes, max_path_length):
+    '''Optimized fingerprint generation with memory efficiency'''
+    rel_list = []
+    
+    # Process nodes in order and limit path exploration
+    for node in sorted(graph.nodes()):
+        rel = []
+        # Use BFS with depth limit
+        queue = [(node, [node], '')]  # (current_node, path, relationship_string)
+        
+        while queue:
+            current_node, path, current_rel = queue.pop(0)
+            
+            if len(path) > 1:
+                rel.append(current_rel)
+            
+            if len(path) < max_path_length:
+                for neighbor in sorted(graph.successors(current_node)):
+                    if neighbor not in path:  # Avoid cycles
+                        new_rel = current_rel + relation(palindromes[path[-1]], palindromes[neighbor])
+                        queue.append((neighbor, path + [neighbor], new_rel))
+        
+        rel_list.append(';'.join(rel) if rel else '-')
+    
+    return rel_list
 
 def extract_first_elements(list_of_lists):
     """Extracts the first element from each sublist in a list of lists."""
@@ -245,6 +273,8 @@ def counts_vector(features: list[str], lengths: list[int], energies: list[float]
     for path in features:
         # iterate over paths in features
         tokens = [t.strip() for t in path.split(';') if t.strip()]
+        if len(tokens) > 1000:
+            tokens = tokens[:1000]
         for token in tokens:
             # determine token's index and add to the count
             if token in custom_feature_table:
@@ -256,20 +286,56 @@ def counts_vector(features: list[str], lengths: list[int], energies: list[float]
 
     return bit_vector
 
-dataset = os.listdir('../RFAM')
+def main():
+    with open("rfam_vectors.csv", mode="w", newline="") as f:
+        writer = csv.writer(f)
+        header = ["seq_name"] + [f"bit_{i}" for i in range(len(length_bins) + len(energy_bins) + len(custom_feature_table))]
+        writer.writerow(header)
+        dataset_dir = "../RFAM"
+        dataset = os.listdir(dataset_dir)
 
-rfam_vectors = []
+        for file in tqdm(dataset):
+            if file.endswith('.out'):
+                try:
+                    (seq_name, hairpins) = get_data(os.path.join(dataset_dir, file), 10)
+                    if any(len(hairpins[i]) > 115 for i in hairpins):
+                        print(f"Skipping {file} due to large sequence length")
+                        continue
+                    rfam_pals = palindromes(hairpins)
+                    rfam_lengths = extract_length(hairpins)
+                    rfam_energies = extract_first_elements(hairpins)
 
-for file in dataset:
-    if file.endswith('.out'):
-        (seq_name, hairpins) = get_data(os.path.join('../RFAM', file), 10)
-        rfam_pals = palindromes(hairpins)
-        rfam_lengths = extract_length(hairpins)
-        rfam_energies = extract_first_elements(hairpins)
-        for seq in rfam_pals:
-            rfam_graph = pgraph(rfam_pals[seq])
-            G = build_directed_graph_from_dict(rfam_graph)
-            rfam_fp = fingerprint(G, rfam_pals[seq], 5)
-            rfam_counts = counts_vector(rfam_fp, lengths=rfam_lengths, energies=rfam_energies)
-            rfam_vectors.append(rfam_counts)
-print("The length of the final vectors list is:", len(rfam_vectors))
+                    for seq in rfam_pals:
+                        rfam_graph = pgraph(rfam_pals[seq])
+                        G = build_directed_graph_from_dict(rfam_graph)
+                        rfam_fp = optimized_fingerprint(G, rfam_pals[seq], 5)
+                        G.clear()
+                        del G
+                        gc.collect()
+                        rfam_counts = counts_vector(rfam_fp, lengths=rfam_lengths, energies=rfam_energies)
+                        
+                        # write to disk to liberate memory
+                        writer.writerow([seq] + rfam_counts)
+                        del rfam_pals, rfam_graph, rfam_fp, rfam_counts
+                        gc.collect()
+
+                    del hairpins, seq_name, rfam_lengths, rfam_energies
+                    gc.collect()
+                except Exception as e:
+                    print(f"Error processing file {file}: {str(e)}")
+                    continue
+
+# === Entry point ===
+if __name__ == "__main__":
+    import cProfile
+    import pstats
+    from pstats import SortKey
+
+    profiler = cProfile.Profile()
+    profiler.enable()
+    main()
+    profiler.disable()
+
+    with open("profiler_stats.txt", "w") as f:
+        ps = pstats.Stats(profiler, stream=f).strip_dirs().sort_stats(SortKey.CUMULATIVE)
+        ps.print_stats()
