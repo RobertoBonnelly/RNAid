@@ -1,0 +1,53 @@
+>FNNG01000032.1:26-88 Tepidimicrobium xylanilyticum strain DSM 23310 genome assembly, contig: Ga0056071_scaffold00032.32, whole genome shotgun sequence FORWARD
+ 8.3       1 ..      11   xxxxxxxxxxxxxxx                 T TTTAGTATT G                 TAGGTGTAAAAGAAC
+ 8.4       2 ..      12   xxxxxxxxxxxxxxT                 TTTA GTA TTGT                 AGGTGTAAAAGAACA
+   5       2 ..      13   xxxxxxxxxxxxxxT                TTTA GTAT TGTA                 GGTGTAAAAGAACAA
+ 3.5       3 ..      14   xxxxxxxxxxxxxTT                TTA GTATTG TAG                 GTGTAAAAGAACAAG
+ 4.8       2 ..      15   xxxxxxxxxxxxxxT               TTTA GTATTG TAGG                TGTAAAAGAACAAGA
+ 6.2       6 ..      16   xxxxxxxxxxTTTTA                 GTAT TGT AGGT                 GTAAAAGAACAAGAC
+   4       7 ..      17   xxxxxxxxxTTTTAG                 TATT GTA GGTG                 TAAAAGAACAAGACC
+ 5.3       6 ..      18   xxxxxxxxxxTTTTA                GTATT GTA GGTGT                AAAAGAACAAGACCG
+ 4.5       7 ..      19   xxxxxxxxxTTTTAG                TAT TGTAGGT GTA                AAAGAACAAGACCGC
+ 2.8       9 ..      20   xxxxxxxTTTTAGTA                TTGT AGGT GTAA                 AAGAACAAGACCGCA
+ 2.8      10 ..      21   xxxxxxTTTTAGTAT                TGTA GGTG TAAA                 AGAACAAGACCGCAC
+ 1.9       9 ..      22   xxxxxxxTTTTAGTA               TTGTA GGTG TAAAA                GAACAAGACCGCACA
+ 5.4       8 ..      23   xxxxxxxxTTTTAGT              ATTGTA GGTG TAAAAG               AACAAGACCGCACAA
+ 4.5       7 ..      24   xxxxxxxxxTTTTAG             TATTGTA GGTG TAAAAGA              ACAAGACCGCACAAG
+ 6.2      15 ..      25   xTTTTAGTATTGTAG                 GTGT AAA AGAA                 CAAGACCGCACAAGG
+ 2.8      15 ..      26   xTTTTAGTATTGTAG                GT GTAAAAGA AC                 AAGACCGCACAAGGT
+-0.1      16 ..      27   TTTTAGTATTGTAGG                TGT AAAAGA ACA                 AGACCGCACAAGGTC
+ 3.4      15 ..      28   xTTTTAGTATTGTAG               GTGT AAAAGA ACAA                GACCGCACAAGGTCG
+ 6.9      14 ..      29   xxTTTTAGTATTGTA              GGTGT AAAAGA ACAAG               ACCGCACAAGGTCGC
+ 7.6       7 ..      30   xxxxxxxxxTTTTAG          TATTGT AGGTGTAAAAGA ACAAGA           CCGCACAAGGTCGCA
+ 5.3       6 ..      31   xxxxxxxxxxTTTTA         GTATTGT AGGTGTAAAAGA ACAAGAC          CGCACAAGGTCGCAA
+ 4.1      14 ..      32   xxTTTTAGTATTGTA             GGTGT AAAAGAACA AGACC             GCACAAGGTCGCAAC
+ 7.2      22 ..      33   TATTGTAGGTGTAAA                AG AACAAGAC CG                 CACAAGGTCGCAACC
+ 5.7      23 ..      34   ATTGTAGGTGTAAAA                G AACAAGACCG C                 ACAAGGTCGCAACCT
+ 8.2      10 ..      35   xxxxxxTTTTAGTAT         TGTAGGTGT AAAAGAACA AGACC-GCA         CAAGGTCGCAACCTT
+ 6.4      23 ..      36   ATTGTAGGTGTAAAA               GAAC AAGACC GCAC                AAGGTCGCAACCTTG
+None      27 ..      37   TAGGTGTAAAAGAAC                  AAGACCGCACA                  AGGTCGCAACCTTGT
+ 8.6       9 ..      38   xxxxxxxTTTTAGTA       TTGT-AGGTGT AAAAGAACA AGACCGCACAA       GGTCGCAACCTTGTA
+ 6.4      26 ..      39   GTAGGTGTAAAAGAA               CAAG ACCGCA CAAG                GTCGCAACCTTGTAA
+ 5.4      30 ..      40   GTGTAAAAGAACAAG                ACC GCACAA GG-                 TCGCAACCTTGTAAA
+-1.5      30 ..      41   GTGTAAAAGAACAAG                ACC GCACAA GGT                 CGCAACCTTGTAAAA
+-3.8      29 ..      42   GGTGTAAAAGAACAA               GACC GCACAA GGTC                GCAACCTTGTAAAAA
+-0.8      32 ..      43   GTAAAAGAACAAGAC                CGCAC AAG GT-CG                CAACCTTGTAAAAAA
+-0.8      33 ..      44   TAAAAGAACAAGACC                GC-AC AAG GTCGC                AACCTTGTAAAAAAG
+ 2.7      32 ..      45   GTAAAAGAACAAGAC               CGC-AC AAG GTCGCA               ACCTTGTAAAAAAGC
+ 6.2      31 ..      46   TGTAAAAGAACAAGA              CCGC-AC AAG GTCGCAA              CCTTGTAAAAAAGCG
+ 8.7      33 ..      47   TAAAAGAACAAGACC               G CACAAGGTCGCAA C               CTTGTAAAAAAGCGT
+ 2.5      38 ..      48   GAACAAGACCGCACA                AGGT CGCA ACC-                 TTGTAAAAAAGCGTA
+-4.4      38 ..      49   GAACAAGACCGCACA                AGGT CGCA ACCT                 TGTAAAAAAGCGTAx
+-5.3      37 ..      50   AGAACAAGACCGCAC               AAGGT CGCA ACCTT                GTAAAAAAGCGTAxx
+-7.6      36 ..      51   AAGAACAAGACCGCA              CAAGGT CGCA ACCTTG               TAAAAAAGCGTAxxx
+-8.5      35 ..      52   AAAGAACAAGACCGC             ACAAGGT CGCA ACCTTGT              AAAAAAGCGTAxxxx
+  -5      34 ..      53   AAAAGAACAAGACCG            CACAAGGT CGCA ACCTTGTA             AAAAAGCGTAxxxxx
+-1.5      33 ..      54   TAAAAGAACAAGACC           GCACAAGGT CGCA ACCTTGTAA            AAAAGCGTAxxxxxx
+   2      32 ..      55   GTAAAAGAACAAGAC          CGCACAAGGT CGCA ACCTTGTAAA           AAAGCGTAxxxxxxx
+ 5.5      31 ..      56   TGTAAAAGAACAAGA         CCGCACAAGGT CGCA ACCTTGTAAAA          AAGCGTAxxxxxxxx
+ 6.2      47 ..      57   CGCACAAGGTCGCAA                 CCTT GTA AAAA                 AGCGTAxxxxxxxxx
+ 4.7      48 ..      58   GCACAAGGTCGCAAC                 CTT GTAAA AAA                 GCGTAxxxxxxxxxx
+-0.1      48 ..      59   GCACAAGGTCGCAAC                CTT GTAAAA AAG                 CGTAxxxxxxxxxxx
+ 3.4      47 ..      60   CGCACAAGGTCGCAA               CCTT GTAAAA AAGC                GTAxxxxxxxxxxxx
+ 3.6      47 ..      61   CGCACAAGGTCGCAA              C-CTT GTAAAA AAGCG               TAxxxxxxxxxxxxx
+ 2.7      46 ..      62   CCGCACAAGGTCGCA             AC-CTT GTAAAA AAGCGT              Axxxxxxxxxxxxxx

@@ -1,0 +1,101 @@
+>FR894050.1:32199-32309 Roseburia sp. CAG:309 genomic scaffold, scf323, whole genome shotgun sequence FORWARD
+None       1 ..      11   xxxxxxxxxxxxxxx                  AAGCGGTGAAG                  TAAGGTGCTGTGCCA
+ 6.1       2 ..      12   xxxxxxxxxxxxxxA                 A GCGGTGAAG T                 AAGGTGCTGTGCCAG
+ 6.5       2 ..      13   xxxxxxxxxxxxxxA                AGC GGTGAA GTA                 AGGTGCTGTGCCAGA
+None       4 ..      14   xxxxxxxxxxxxAAG                  CGGTGAAGTAA                  GGTGCTGTGCCAGAG
+ 5.7       4 ..      15   xxxxxxxxxxxxAAG                C GGTGAAGTAA G                 GTGCTGTGCCAGAGA
+ 6.1       4 ..      16   xxxxxxxxxxxxAAG                CGGTG AAG TAAGG                TGCTGTGCCAGAGAG
+ 7.4       3 ..      17   xxxxxxxxxxxxxAA               GCGGTG AAG TAAGGT               GCTGTGCCAGAGAGC
+ 7.6       8 ..      18   xxxxxxxxAAGCGGT                 GA AGTAAGG TG                 CTGTGCCAGAGAGCA
+ 4.3       8 ..      19   xxxxxxxxAAGCGGT                GAA GTAAGG TGC                 TGTGCCAGAGAGCAG
+-1.8      10 ..      20   xxxxxxAAGCGGTGA                 AGTA AGG TGCT                 GTGCCAGAGAGCAGT
+ 1.7       9 ..      21   xxxxxxxAAGCGGTG                AAGTA AGG TGCTG                TGCCAGAGAGCAGTG
+   3       8 ..      22   xxxxxxxxAAGCGGT               GAAGTA AGG TGCTGT               GCCAGAGAGCAGTGC
+ 4.2      12 ..      23   xxxxAAGCGGTGAAG                TA-AG GTG CTGTG                CCAGAGAGCAGTGCC
+ 1.9      11 ..      24   xxxxxAAGCGGTGAA               GTA-AG GTG CTGTGC               CAGAGAGCAGTGCCT
+  -1      15 ..      25   xAAGCGGTGAAGTAA                 GGTG CTG TGCC                 AGAGAGCAGTGCCTT
+ 2.5      14 ..      26   xxAAGCGGTGAAGTA                AGGTG CTG TGCCA                GAGAGCAGTGCCTTA
+ 3.4       4 ..      27   xxxxxxxxxxxxAAG          C-GGTGAAGTA AGG TGCTGTGCCAG          AGAGCAGTGCCTTAT
+  -1      18 ..      28   GCGGTGAAGTAAGGT                 GCTG TGC CAGA                 GAGCAGTGCCTTATG
+ 0.3      17 ..      29   AGCGGTGAAGTAAGG                TGCTG TGC CAGAG                AGCAGTGCCTTATGA
+ 3.8      16 ..      30   AAGCGGTGAAGTAAG               GTGCTG TGC CAGAGA               GCAGTGCCTTATGAA
+ 2.4      19 ..      31   CGGTGAAGTAAGGTG                CTGT GCCAG AGAG                CAGTGCCTTATGAAC
+ 0.1      18 ..      32   GCGGTGAAGTAAGGT               GCTGT GCCAG AGAGC               AGTGCCTTATGAACT
+-1.5      22 ..      33   TGAAGTAAGGTGCTG                TGC CAGAGA GCA                 GTGCCTTATGAACTT
+  -1      19 ..      34   CGGTGAAGTAAGGTG              CTGTGC CAGA GAGCAG               TGCCTTATGAACTTT
+ 0.3      18 ..      35   GCGGTGAAGTAAGGT             GCTGTGC CAGA GAGCAGT              GCCTTATGAACTTTA
+ 1.6      17 ..      36   AGCGGTGAAGTAAGG            TGCTGTGC CAGA GAGCAGTG             CCTTATGAACTTTAT
+-0.7      16 ..      37   AAGCGGTGAAGTAAG           GTGCTGTGC CAGA GAGCAGTGC            CTTATGAACTTTATA
+  -3      15 ..      38   xAAGCGGTGAAGTAA          GGTGCTGTGC CAGA GAGCAGTGCC           TTATGAACTTTATAT
+-3.9      14 ..      39   xxAAGCGGTGAAGTA         AGGTGCTGTGC CAGA GAGCAGTGCCT          TATGAACTTTATATG
+-4.8      13 ..      40   xxxAAGCGGTGAAGT        AAGGTGCTGTGC CAGA GAGCAGTGCCTT         ATGAACTTTATATGG
+-5.7      12 ..      41   xxxxAAGCGGTGAAG       TAAGGTGCTGTGC CAGA GAGCAGTGCCTTA        TGAACTTTATATGGG
+-4.4      11 ..      42   xxxxxAAGCGGTGAA      GTAAGGTGCTGTGC CAGA GAGCAGTGCCTTAT       GAACTTTATATGGGT
+-0.9      10 ..      43   xxxxxxAAGCGGTGA     AGTAAGGTGCTGTGC CAGA GAGCAGTGCCTTATG      AACTTTATATGGGTT
+ 2.6       9 ..      44   xxxxxxxAAGCGGTG    AAGTAAGGTGCTGTGC CAGA GAGCAGTGCCTTATGA     ACTTTATATGGGTTT
+ 3.3      35 ..      45   TGTGCCAGAGAGCAG                 TGC CTTAT GAA                 CTTTATATGGGTTTG
+   1      34 ..      46   CTGTGCCAGAGAGCA                GTGC CTTAT GAAC                TTTATATGGGTTTGA
+ 0.1      33 ..      47   GCTGTGCCAGAGAGC               AGTGC CTTAT GAACT               TTATATGGGTTTGAC
+ 3.6      32 ..      48   TGCTGTGCCAGAGAG              CAGTGC CTTAT GAACTT              TATATGGGTTTGACG
+ 4.9      31 ..      49   GTGCTGTGCCAGAGA             GCAGTGC CTTAT GAACTTT             ATATGGGTTTGACGT
+ 3.2      40 ..      50   CAGAGAGCAGTGCCT                 TA TGAACTT TA                 TATGGGTTTGACGTT
+-0.4      41 ..      51   AGAGAGCAGTGCCTT                 ATGA ACT TTAT                 ATGGGTTTGACGTTT
+-1.3      40 ..      52   CAGAGAGCAGTGCCT                TATGA ACT TTATA                TGGGTTTGACGTTTA
+ 2.2      39 ..      53   CCAGAGAGCAGTGCC               TTATGA ACT TTATAT               GGGTTTGACGTTTAC
+-0.1      38 ..      54   GCCAGAGAGCAGTGC              CTTATGA ACT TTATATG              GGTTTGACGTTTACC
+-2.4      37 ..      55   TGCCAGAGAGCAGTG             CCTTATGA ACT TTATATGG             GTTTGACGTTTACCA
+ 1.1      36 ..      56   GTGCCAGAGAGCAGT            GCCTTATGA ACT TTATATGGG            TTTGACGTTTACCAC
+ 2.4      45 ..      57   AGCAGTGCCTTATGA                ACTT TATAT GGGT                TTGACGTTTACCACA
+ 1.5      44 ..      58   GAGCAGTGCCTTATG               AACTT TATAT GGGTT               TGACGTTTACCACAA
+ 2.8      43 ..      59   AGAGCAGTGCCTTAT              GAACTT TATAT GGGTTT              GACGTTTACCACAAT
+ 2.7      32 ..      60   TGCTGTGCCAGAGAG        CAGTGCCTTATGA ACT TTATATGGGTTTG        ACGTTTACCACAATC
+ 4.1      48 ..      61   AGTGCCTTATGAACT               TTATA TGGG TTTGA                CGTTTACCACAATCT
+ 6.4      31 ..      62   GTGCTGTGCCAGAGA      G-CAGTGCCTTATGA ACT TTATATGGGTTTGAC      GTTTACCACAATCTG
+   4      53 ..      63   CTTATGAACTTTATA                 TG GGTTTGA CG                 TTTACCACAATCTGG
+ 2.6      54 ..      64   TTATGAACTTTATAT                 GGGT TTG ACGT                 TTACCACAATCTGGT
+ 3.5      44 ..      65   GAGCAGTGCCTTATG           AACTTTATA TGGG TTTGACGTT            TACCACAATCTGGTT
+ 4.8      43 ..      66   AGAGCAGTGCCTTAT          GAACTTTATA TGGG TTTGACGTTT           ACCACAATCTGGTTA
+ 3.9      42 ..      67   GAGAGCAGTGCCTTA         TGAACTTTATA TGGG TTTGACGTTTA          CCACAATCTGGTTAG
+ 3.8      56 ..      68   ATGAACTTTATATGG                GT TTGACGTTT AC                CACAATCTGGTTAGA
+ 1.5      55 ..      69   TATGAACTTTATATG               GGT TTGACGTTT ACC               ACAATCTGGTTAGAG
+ 2.8      59 ..      70   AACTTTATATGGGTT                TG ACGTTTAC CA                 CAATCTGGTTAGAGA
+ 4.4      60 ..      71   ACTTTATATGGGTTT                GACG TTTA CCAC                 AATCTGGTTAGAGAT
+ 3.3      62 ..      72   TTTATATGGGTTTGA                 CGT TTACC ACA                 ATCTGGTTAGAGATG
+ 2.6      58 ..      73   GAACTTTATATGGGT              TTGACG TTTA CCACAA               TCTGGTTAGAGATGC
+ 3.5      63 ..      74   TTATATGGGTTTGAC                GTT TACCAC AAT                 CTGGTTAGAGATGCT
+ 2.4      63 ..      75   TTATATGGGTTTGAC                GTTT ACCAC AATC                TGGTTAGAGATGCTA
+ 5.1      55 ..      76   TATGAACTTTATATG           GGTTTGACG TTTA CCACAATCT            GGTTAGAGATGCTAT
+ 6.1      62 ..      77   TTTATATGGGTTTGA              C-GTTT ACCAC AATCTG              GTTAGAGATGCTATC
+-2.5      68 ..      78   TGGGTTTGACGTTTA                 CCA CAATC TGG                 TTAGAGATGCTATCT
+-3.4      67 ..      79   ATGGGTTTGACGTTT                ACCA CAATC TGGT                TAGAGATGCTATCTC
+ 0.1      66 ..      80   TATGGGTTTGACGTT               TACCA CAATC TGGTT               AGAGATGCTATCTCG
+-0.8      65 ..      81   ATATGGGTTTGACGT              TTACCA CAATC TGGTTA              GAGATGCTATCTCGA
+ 0.5      64 ..      82   TATATGGGTTTGACG             TTTACCA CAATC TGGTTAG             AGATGCTATCTCGAA
+ 2.1      64 ..      83   TATATGGGTTTGACG            TTT-ACCA CAATC TGGTTAGA            GATGCTATCTCGAAA
+ 1.4      73 ..      84   TTGACGTTTACCACA                ATCT GGTT AGAG                 ATGCTATCTCGAAAG
+-0.1      74 ..      85   TGACGTTTACCACAA                TCT GGTTAG AGA                 TGCTATCTCGAAAGA
+  -1      73 ..      86   TTGACGTTTACCACA               ATCT GGTTAG AGAT                GCTATCTCGAAAGAA
+ 2.5      72 ..      87   TTTGACGTTTACCAC              AATCT GGTTAG AGATG               CTATCTCGAAAGAAA
+   4      78 ..      88   GTTTACCACAATCTG                 GT TAGAGAT GC                 TATCTCGAAAGAAAA
+ 5.1      70 ..      89   GGTTTGACGTTTACC            ACAATCT GGTTAG AGATGCT             ATCTCGAAAGAAAAT
+-1.1      80 ..      90   TTACCACAATCTGGT                 TAG AGATG CTA                 TCTCGAAAGAAAATG
+ 0.4      81 ..      91   TACCACAATCTGGTT                 AGAG ATG CTAT                 CTCGAAAGAAAATGT
+ 0.1      78 ..      92   GTTTACCACAATCTG               GTTAG AGATG CTATC               TCGAAAGAAAATGTC
+  -4      83 ..      93   CCACAATCTGGTTAG                 AGAT GCT ATCT                 CGAAAGAAAATGTCG
+-6.3      82 ..      94   ACCACAATCTGGTTA                GAGAT GCT ATCTC                GAAAGAAAATGTCGG
+-2.8      81 ..      95   TACCACAATCTGGTT               AGAGAT GCT ATCTCG               AAAGAAAATGTCGGG
+-3.7      80 ..      96   TTACCACAATCTGGT              TAGAGAT GCT ATCTCGA              AAGAAAATGTCGGGG
+-4.6      79 ..      97   TTTACCACAATCTGG             TTAGAGAT GCT ATCTCGAA             AGAAAATGTCGGGGx
+-1.1      78 ..      98   GTTTACCACAATCTG            GTTAGAGAT GCT ATCTCGAAA            GAAAATGTCGGGGxx
+ 1.4      88 ..      99   ATCTGGTTAGAGATG                CTAT CTCG AAAG                 AAAATGTCGGGGxxx
+ 1.5      76 ..     100   ACGTTTACCACAATC          TGGTTAGAGAT GCT ATCTCGAAAGA          AAATGTCGGGGxxxx
+ 1.4      90 ..     101   CTGGTTAGAGATGCT                ATCT CGAA AGAA                 AATGTCGGGGxxxxx
+ 0.5      89 ..     102   TCTGGTTAGAGATGC               TATCT CGAA AGAAA                ATGTCGGGGxxxxxx
+   4      88 ..     103   ATCTGGTTAGAGATG              CTATCT CGAA AGAAAA               TGTCGGGGxxxxxxx
+ 5.3      87 ..     104   AATCTGGTTAGAGAT             GCTATCT CGAA AGAAAAT              GTCGGGGxxxxxxxx
+ 4.4      71 ..     105   GTTTGACGTTTACCA     CAATCTGGTTAGAGAT GCT ATCTCGAAAGAAAATG     TCGGGGxxxxxxxxx
+ 3.5      70 ..     106   GGTTTGACGTTTACC    ACAATCTGGTTAGAGAT GCT ATCTCGAAAGAAAATGT    CGGGGxxxxxxxxxx
+ 2.4      95 ..     107   TAGAGATGCTATCTC                GAAA GAAAA TGTC                GGGGxxxxxxxxxxx
+ 0.1      94 ..     108   TTAGAGATGCTATCT               CGAAA GAAAA TGTCG               GGGxxxxxxxxxxxx
+ 1.4      93 ..     109   GTTAGAGATGCTATC              TCGAAA GAAAA TGTCGG              GGxxxxxxxxxxxxx
+-0.9      92 ..     110   GGTTAGAGATGCTAT             CTCGAAA GAAAA TGTCGGG             Gxxxxxxxxxxxxxx

@@ -1,0 +1,58 @@
+>FOFS01000008.1:210198-210265 Solimonas aquatica strain DSM 25927 genome assembly, contig: Ga0070002_108, whole genome shotgun sequence FORWARD
+None       1 ..      11   xxxxxxxxxxxxxxx                  GCCGCACCTAG                  CCCGACGGGGCGAAA
+ 1.4       1 ..      12   xxxxxxxxxxxxxxx                GC CGCACCTA GC                 CCGACGGGGCGAAAA
+ 1.9       3 ..      13   xxxxxxxxxxxxxGC                 CGC ACCTA GCC                 CGACGGGGCGAAAAG
+ 3.4       4 ..      14   xxxxxxxxxxxxGCC                 GCAC CTA GCCC                 GACGGGGCGAAAAGC
+ 1.1       3 ..      15   xxxxxxxxxxxxxGC                CGCAC CTA GCCCG                ACGGGGCGAAAAGCC
+ 4.6       2 ..      16   xxxxxxxxxxxxxxG               CCGCAC CTA GCCCGA               CGGGGCGAAAAGCCG
+ 2.3       1 ..      17   xxxxxxxxxxxxxxx              GCCGCAC CTA GCCCGAC              GGGGCGAAAAGCCGG
+ 4.3       7 ..      18   xxxxxxxxxGCCGCA                CCT AGCCCG ACG                 GGGCGAAAAGCCGGC
+ 2.4       7 ..      19   xxxxxxxxxGCCGCA                CC TAGCCCGAC GG                GGCGAAAAGCCGGCA
+ 2.7       7 ..      20   xxxxxxxxxGCCGCA               CCT AGCCCGAC GGG                GCGAAAAGCCGGCAC
+-2.4      11 ..      21   xxxxxGCCGCACCTA                 GCCC GAC GGGG                 CGAAAAGCCGGCACC
+-7.2      11 ..      22   xxxxxGCCGCACCTA                GCCC GACG GGGC                 GAAAAGCCGGCACCT
+-3.7      10 ..      23   xxxxxxGCCGCACCT               AGCCC GACG GGGCG                AAAAGCCGGCACCTT
+-4.6       9 ..      24   xxxxxxxGCCGCACC              TAGCCC GACG GGGCGA               AAAGCCGGCACCTTC
+-1.1       8 ..      25   xxxxxxxxGCCGCAC             CTAGCCC GACG GGGCGAA              AAGCCGGCACCTTCC
+ 2.4       7 ..      26   xxxxxxxxxGCCGCA            CCTAGCCC GACG GGGCGAAA             AGCCGGCACCTTCCC
+ 5.9       6 ..      27   xxxxxxxxxxGCCGC           ACCTAGCCC GACG GGGCGAAAA            GCCGGCACCTTCCCG
+ 3.6       5 ..      28   xxxxxxxxxxxGCCG          CACCTAGCCC GACG GGGCGAAAAG           CCGGCACCTTCCCGG
+ 1.3       4 ..      29   xxxxxxxxxxxxGCC         GCACCTAGCCC GACG GGGCGAAAAGC          CGGCACCTTCCCGGC
+-3.9      20 ..      30   CACCTAGCCCGACGG                 GGC GAAAA GCC                 GGCACCTTCCCGGCC
+-0.4      19 ..      31   GCACCTAGCCCGACG                GGGC GAAAA GCCG                GCACCTTCCCGGCCC
+ 2.3      13 ..      32   xxxGCCGCACCTAGC            CCGAC GGGGCGAAAA GCCGG             CACCTTCCCGGCCCG
+ 0.4       1 ..      33   xxxxxxxxxxxxxxx     GCCG-CACCTAGCCC GACG GGGCGAAAAGCCGGC      ACCTTCCCGGCCCGG
+ 4.1      19 ..      34   GCACCTAGCCCGACG              GGGCG AAAAGC CGGCA               CCTTCCCGGCCCGGT
+ 1.8      18 ..      35   CGCACCTAGCCCGAC             GGGGCG AAAAGC CGGCAC              CTTCCCGGCCCGGTG
+ 1.3      18 ..      36   CGCACCTAGCCCGAC             GGGGC GAAAAGCCG GCACC             TTCCCGGCCCGGTGC
+ 1.8      27 ..      37   CCCGACGGGGCGAAA                 AG CCGGCAC CT                 TCCCGGCCCGGTGCG
+ 0.9      26 ..      38   GCCCGACGGGGCGAA                AAG CCGGCAC CTT                CCCGGCCCGGTGCGG
+ 1.6      15 ..      39   xGCCGCACCTAGCCC          GACGGGGC GAAAAGCCG GCACCTTC          CCGGCCCGGTGCGGC
+ 4.6      23 ..      40   CTAGCCCGACGGGGC             GAAAAG CCGGCA CCTTCC              CGGCCCGGTGCGGCG
+  -1      31 ..      41   ACGGGGCGAAAAGCC                 GGCA CCT TCCC                 GGCCCGGTGCGGCGC
+-3.3      30 ..      42   GACGGGGCGAAAAGC                CGGCA CCT TCCCG                GCCCGGTGCGGCGCC
+-5.6      29 ..      43   CGACGGGGCGAAAAG               CCGGCA CCT TCCCGG               CCCGGTGCGGCGCCT
+-7.9      28 ..      44   CCGACGGGGCGAAAA              GCCGGCA CCT TCCCGGC              CCGGTGCGGCGCCTT
+-4.4      27 ..      45   CCCGACGGGGCGAAA             AGCCGGCA CCT TCCCGGCC             CGGTGCGGCGCCTTT
+-0.9      26 ..      46   GCCCGACGGGGCGAA            AAGCCGGCA CCT TCCCGGCCC            GGTGCGGCGCCTTTC
+-2.4      17 ..      47   CCGCACCTAGCCCGA       CGGGGCGAAAAG CCGGCAC CTTCCCGGCCCG       GTGCGGCGCCTTTCT
+-1.3      29 ..      48   CGACGGGGCGAAAAG            CCGGCACC TTCCC GGC-CCGG            TGCGGCGCCTTTCTT
+-2.4      39 ..      49   AAAAGCCGGCACCTT                 CCCG GCC CGGT                 GCGGCGCCTTTCTTG
+-2.2      39 ..      50   AAAAGCCGGCACCTT                C-CCG GCC CGGTG                CGGCGCCTTTCTTGA
+-2.1      32 ..      51   CGGGGCGAAAAGCCG            GCACC TTCCCGGCCC GGTGC             GGCGCCTTTCTTGAA
+-1.2       3 ..      52   xxxxxxxxxxxxxGC CGCACCTAGCC-CGACGGGGC GAAAAGCCG GCACCTTCCCGGCCCGGTGCG GCGCCTTTCTTGAAG
+-3.5       2 ..      53   xxxxxxxxxxxxxxG CCGCACCTAGCC-CGACGGGGC GAAAAGCCG GCACCTTCCCGGCCCGGTGCGG CGCCTTTCTTGAAGG
+-5.8       1 ..      54   xxxxxxxxxxxxxxx GCCGCACCTAGCC-CGACGGGGC GAAAAGCCG GCACCTTCCCGGCCCGGTGCGGC GCCTTTCTTGAAGGx
+-2.2      44 ..      55   CCGGCACCTTCCCGG                C-CCG GTG CGGCG                CCTTTCTTGAAGGxx
+-4.5      43 ..      56   GCCGGCACCTTCCCG               GC-CCG GTG CGGCGC               CTTTCTTGAAGGxxx
+-6.8      42 ..      57   AGCCGGCACCTTCCC              GGC-CCG GTG CGGCGCC              TTTCTTGAAGGxxxx
+-3.3      41 ..      58   AAGCCGGCACCTTCC             CGGC-CCG GTG CGGCGCCT             TTCTTGAAGGxxxxx
+ 0.2      40 ..      59   AAAGCCGGCACCTTC            CCGGC-CCG GTG CGGCGCCTT            TCTTGAAGGxxxxxx
+ 1.3      24 ..      60   TAGCCCGACGGGGCG   AAAAGC-CGGCACC TTCCCGGCCC GGTGCGGCGCCTTT    CTTGAAGGxxxxxxx
+  -1      23 ..      61   CTAGCCCGACGGGGC  GAAAAGC-CGGCACC TTCCCGGCCC GGTGCGGCGCCTTTC   TTGAAGGxxxxxxxx
+ 2.5      22 ..      62   CCTAGCCCGACGGGG CGAAAAGC-CGGCACC TTCCCGGCCC GGTGCGGCGCCTTTCT  TGAAGGxxxxxxxxx
+ 3.3      26 ..      63   GCCCGACGGGGCGAA   AAG-CCGGCACCTTCCCG GCC CGGTGCGGCGCCTTTCTT   GAAGGxxxxxxxxxx
+   4      54 ..      64   CCCGGCCCGGTGCGG                 CG CCTTTCT TG                 AAGGxxxxxxxxxxx
+ 6.2      55 ..      65   CCGGCCCGGTGCGGC                 GC CTTTCTT GA                 AGGxxxxxxxxxxxx
+ 8.7      38 ..      66   GAAAAGCCGGCACCT        TCCCGGCCCGGTG CGG CGCCTTTCTTGAA        GGxxxxxxxxxxxxx
+-1.8      57 ..      67   GGCCCGGTGCGGCGC                 CTTT CTT GAAG                 Gxxxxxxxxxxxxxx

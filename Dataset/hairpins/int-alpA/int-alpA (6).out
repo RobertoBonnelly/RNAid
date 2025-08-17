@@ -1,0 +1,59 @@
+>SDKK01000017.1:c86441-86373 Zoogloea oleivorans strain Buc BUC_nxtrim.se_trimmed_contig_33, whole genome shotgun sequence FORWARD
+None       1 ..      11   xxxxxxxxxxxxxxx                  ACCGCGCCTAG                  GTCGGCCAACCGAAA
+ 0.4       2 ..      12   xxxxxxxxxxxxxxA                 CC GCGCCTA GG                 TCGGCCAACCGAAAA
+-0.5       1 ..      13   xxxxxxxxxxxxxxx                ACC GCGCCTA GGT                CGGCCAACCGAAAAG
+ 3.4       4 ..      14   xxxxxxxxxxxxACC                 GCGC CTA GGTC                 GGCCAACCGAAAAGC
+-2.4       5 ..      15   xxxxxxxxxxxACCG                 CGCC TAG GTCG                 GCCAACCGAAAAGCG
+-1.2       2 ..      16   xxxxxxxxxxxxxxA               CCGCGC CTA GGTCGG               CCAACCGAAAAGCGG
+-2.9       6 ..      17   xxxxxxxxxxACCGC                GCC TAGGTC GGC                 CAACCGAAAAGCGGG
+ 0.6       5 ..      18   xxxxxxxxxxxACCG               CGCC TAGGTC GGCC                AACCGAAAAGCGGGA
+ 2.5       9 ..      19   xxxxxxxACCGCGCC                TAGG TCGG CC-A                 ACCGAAAAGCGGGAA
+9.537e-08       9 ..      20   xxxxxxxACCGCGCC                TAGG TCGG CCAA                 CCGAAAAGCGGGAAC
+ 3.3      11 ..      21   xxxxxACCGCGCCTA                 GGT CGGCC AAC                 CGAAAAGCGGGAACC
+-1.5      11 ..      22   xxxxxACCGCGCCTA                GGT CGGCCA ACC                 GAAAAGCGGGAACCT
+ 1.1      13 ..      23   xxxACCGCGCCTAGG                TCGG CCAA CCG-                 AAAAGCGGGAACCTT
+-5.8      13 ..      24   xxxACCGCGCCTAGG                TCGG CCAA CCGA                 AAAGCGGGAACCTTC
+-2.3      12 ..      25   xxxxACCGCGCCTAG               GTCGG CCAA CCGAA                AAGCGGGAACCTTCA
+ 1.2      11 ..      26   xxxxxACCGCGCCTA              GGTCGG CCAA CCGAAA               AGCGGGAACCTTCAC
+ 4.7      10 ..      27   xxxxxxACCGCGCCT             AGGTCGG CCAA CCGAAAA              GCGGGAACCTTCACC
+   4       8 ..      28   xxxxxxxxACCGCGC           CTAGGTCGG CCAA CCGAAA-AG            CGGGAACCTTCACCC
+ 3.4      16 ..      29   ACCGCGCCTAGGTCG               GC CAACCGAAAA GC                GGGAACCTTCACCCG
+ 4.7       3 ..      30   xxxxxxxxxxxxxAC        CGCGCCTAGGT CGGCCA ACCGAAAAGCG         GGAACCTTCACCCGC
+-3.9      21 ..      31   GCCTAGGTCGGCCAA                 CCG AAAAG CGG                 GAACCTTCACCCGCC
+-0.4      20 ..      32   CGCCTAGGTCGGCCA                ACCG AAAAG CGGG                AACCTTCACCCGCCT
+ 3.1      19 ..      33   GCGCCTAGGTCGGCC               AACCG AAAAG CGGGA               ACCTTCACCCGCCTG
+ 6.6      18 ..      34   CGCGCCTAGGTCGGC              CAACCG AAAAG CGGGAA              CCTTCACCCGCCTGG
+ 6.7      23 ..      35   CTAGGTCGGCCAACC                G AAAAGCGGGAA C                CTTCACCCGCCTGGC
+ 7.7      23 ..      36   CTAGGTCGGCCAACC               G AAAAGCGGGAAC C                TTCACCCGCCTGGCG
+ 1.8      27 ..      37   GTCGGCCAACCGAAA                 AG CGGGAAC CT                 TCACCCGCCTGGCGC
+ 0.9      26 ..      38   GGTCGGCCAACCGAA                AAG CGGGAAC CTT                CACCCGCCTGGCGCG
+ 2.2      28 ..      39   TCGGCCAACCGAAAA                GCGG GAAC CTTC                 ACCCGCCTGGCGCGG
+ 2.6      30 ..      40   GGCCAACCGAAAAGC                 GGGA ACC TTCA                 CCCGCCTGGCGCGGT
+1.907e-07      30 ..      41   GGCCAACCGAAAAGC                GGGA ACCT TCAC                 CCGCCTGGCGCGGTG
+ 0.2      30 ..      42   GGCCAACCGAAAAGC               GG-GA ACCT TCACC                CGCCTGGCGCGGTGC
+-0.9      30 ..      43   GGCCAACCGAAAAGC               GGG AACCTTCA CCC                GCCTGGCGCGGTGCC
+-3.2      29 ..      44   CGGCCAACCGAAAAG              CGGG AACCTTCA CCCG               CCTGGCGCGGTGCCT
+-5.5      28 ..      45   TCGGCCAACCGAAAA             GCGGG AACCTTCA CCCGC              CTGGCGCGGTGCCTC
+  -2      27 ..      46   GTCGGCCAACCGAAA            AGCGGG AACCTTCA CCCGCC             TGGCGCGGTGCCTCT
+-2.9      26 ..      47   GGTCGGCCAACCGAA           AAGCGGG AACCTTCA CCCGCCT            GGCGCGGTGCCTCTT
+ 0.6      25 ..      48   AGGTCGGCCAACCGA          AAAGCGGG AACCTTCA CCCGCCTG           GCGCGGTGCCTCTTT
+ 2.1      38 ..      49   GAAAAGCGGGAACCT                TCA CCCGCC TGG                 CGCGGTGCCTCTTTT
+ 1.8      23 ..      50   CTAGGTCGGCCAACC        GAAAAGCGGG AACCTTCA CCCGCCTGGC         GCGGTGCCTCTTTTG
+-0.5      22 ..      51   CCTAGGTCGGCCAAC       CGAAAAGCGGG AACCTTCA CCCGCCTGGCG        CGGTGCCTCTTTTGA
+-2.4      42 ..      52   AGCGGGAACCTTCAC                 CCGC CTG GCGC                 GGTGCCTCTTTTGAA
+-4.7      41 ..      53   AAGCGGGAACCTTCA                CCCGC CTG GCGCG                GTGCCTCTTTTGAAG
+-6.2      42 ..      54   AGCGGGAACCTTCAC                CCGC CTGGC GCGG                TGCCTCTTTTGAAGG
+-5.4      40 ..      55   AAAGCGGGAACCTTC              ACC-CGC CTG GCGCGGT              GCCTCTTTTGAAGGx
+-7.7      39 ..      56   AAAAGCGGGAACCTT             CACC-CGC CTG GCGCGGTG             CCTCTTTTGAAGGxx
+-4.2      38 ..      57   GAAAAGCGGGAACCT            TCACC-CGC CTG GCGCGGTGC            CTCTTTTGAAGGxxx
+-4.6      48 ..      58   AACCTTCACCCGCCT                 GGCG CGG TGCC                 TCTTTTGAAGGxxxx
+-1.1      47 ..      59   GAACCTTCACCCGCC                TGGCG CGG TGCCT                CTTTTGAAGGxxxxx
+-1.1      48 ..      60   AACCTTCACCCGCCT                GGCGC GGT GCCTC                TTTTGAAGGxxxxxx
+ 2.4      47 ..      61   GAACCTTCACCCGCC               TGGCGC GGT GCCTCT               TTTGAAGGxxxxxxx
+ 4.5      33 ..      62   CAACCGAAAAGCGGG       AACCTTCACC-CGC CTG GCGCGGTGCCTCTT       TTGAAGGxxxxxxxx
+ 4.8      25 ..      63   AGGTCGGCCAACCGA  AAAGCGGGAACCTTCACC CGCCT GGCGC-GGTGCCT-CTTT  TGAAGGxxxxxxxxx
+ 3.9      24 ..      64   TAGGTCGGCCAACCG AAAAGCGGGAACCTTCACC CGCCT GGCGC-GGTGCCT-CTTTT GAAGGxxxxxxxxxx
+ 6.3      52 ..      65   TTCACCCGCCTGGCG               CGG TGCCTCTT TTG                AAGGxxxxxxxxxxx
+ 6.2      56 ..      66   CCCGCCTGGCGCGGT                 GC CTCTTTT GA                 AGGxxxxxxxxxxxx
+ 5.3      55 ..      67   ACCCGCCTGGCGCGG                TGC CTCTTTT GAA                GGxxxxxxxxxxxxx
+-4.768e-08      57 ..      68   CCGCCTGGCGCGGTG                CCTC TTTT GAAG                 Gxxxxxxxxxxxxxx
