@@ -4,7 +4,8 @@ import numpy as np
 from scipy.stats import mannwhitneyu
 import matplotlib.pyplot as plt
 import seaborn as sns
-#import csv
+import os
+import argparse
 
 def load_and_group_medians(pairwise_csv_path):
     """
@@ -44,9 +45,37 @@ def mann_whitney_test_and_effect(wf_medians, af_medians, alternative="two-sided"
 
     return U, p, rank_biserial
 
+def bootstrap_rankbiserial_ci(wf, af, n_boot=20000, seed=0):
+    """Bootstrap 95% CI for rank-biserial effect size."""
+    rng = np.random.default_rng(seed)
+    n1, n2 = len(wf), len(af)
+    stats = np.empty(n_boot)
+    for i in range(n_boot):
+        wf_sample = rng.choice(wf, n1, replace=True)
+        af_sample = rng.choice(af, n2, replace=True)
+        U, _, rb = mann_whitney_test_and_effect(wf_sample, af_sample)
+        stats[i] = rb
+    lo, hi = np.percentile(stats, [2.5, 97.5])
+    return lo, hi
+
 def save_medians_to_csv(df_medians, outpath):
     """Save medians DataFrame (seq1, median_similarity) to CSV."""
     df_medians.to_csv(outpath, index=False)
+
+def append_results(csv_path, family, pval, rb, ci_low, ci_high):
+    """Append results to CSV, add header if file does not exist."""
+    row = {
+        "family": family,
+        "p_value": pval,
+        "rank_biserial": rb,
+        "ci_low": ci_low,
+        "ci_high": ci_high,
+    }
+    df_row = pd.DataFrame([row])
+    if not os.path.exists(csv_path):
+        df_row.to_csv(csv_path, index=False)
+    else:
+        df_row.to_csv(csv_path, mode="a", header=False, index=False)
 
 def plot_distributions(wf_medians, af_medians, wf_label="Within-family", af_label="Across-family",
                        hist_out="median_histogram.png", box_out="median_boxplot.png"):
@@ -78,9 +107,15 @@ def plot_distributions(wf_medians, af_medians, wf_label="Within-family", af_labe
     plt.close()
 
 def main():
-    # Paths — change if your filenames differ
-    af_pairs_csv = "rfam_cosine_pairs.csv"      # across-family pairwise similarities
-    wf_pairs_csv = "sample_cosine_pairs.csv"   # within-family pairwise similarities
+    parser = argparse.ArgumentParser(description="Run Mann-Whitney U test on family vs across-family medians.")
+    parser.add_argument("--af", required=True, help="CSV file with across-family pairwise similarities")
+    parser.add_argument("--wf", required=True, help="CSV file with within-family pairwise similarities")
+    parser.add_argument("--family", required=True, help="Family name")
+    parser.add_argument("--out", default="pvalues.csv", help="Output CSV to store p-values and CIs")
+    args = parser.parse_args()
+    # Paths for af and wf
+    af_pairs_csv = args.af      # across-family pairwise similarities
+    wf_pairs_csv = args.wf   # within-family pairwise similarities
 
     # 1) Load and compute per-sequence medians
     print("Loading and grouping medians ...")
@@ -103,17 +138,25 @@ def main():
     print("Running Mann-Whitney U test (two-sided)...")
     U, p, rank_biserial = mann_whitney_test_and_effect(wf_medians, af_medians, alternative="two-sided")
 
-    # 4) Report
+    # 4) Bootstrap CI
+    ci_low, ci_high = bootstrap_rankbiserial_ci(wf=wf_medians, af=af_medians)
+    print(f"95% CI for rank-biserial: [{ci_low:.3f}, {ci_high:.3f}]")
+
+    # 5) Report
     print(f"Mann-Whitney U (wf vs af) = {U:.3f}")
     print(f"p-value = {p:.3e}")
     print(f"Rank-biserial effect size = {rank_biserial:.3f}   (range -1..1; positive => WF > AF)")
 
-    # 5) Plots
+    # 6) Plots
     print("Plotting distributions ...")
     plot_distributions(wf_medians, af_medians)
 
     print("Done. Medians saved: af_per_sequence_medians.csv , wf_per_sequence_medians.csv")
     print("Plots saved: median_histogram.png, median_boxplot.png")
+
+    # 7) Append results
+    append_results(args.out, args.family, p, rank_biserial, ci_low, ci_high)
+    print(f"Results writen to {args.out}")
 
 if __name__ == "__main__":
     main()
