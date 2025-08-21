@@ -1,0 +1,13 @@
+{
+  "n_sequences": 200,
+  "n_families": 10,
+  "linkage": "average",
+  "metrics": {
+    "ARI": 0.45359874643983195,
+    "homogeneity": 0.6197688927532049,
+    "completeness": 0.7041555743565673,
+    "v_measure": 0.6592728384236166,
+    "purity": 0.515,
+    "silhouette": 0.4069440394872801
+  }
+}
