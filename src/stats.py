@@ -1,7 +1,7 @@
 # compare_medians_mannwhitney.py
 import pandas as pd
 import numpy as np
-from scipy.stats import mannwhitneyu
+from scipy.stats import mannwhitneyu, levene
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
@@ -62,15 +62,49 @@ def save_medians_to_csv(df_medians, outpath):
     """Save medians DataFrame (seq1, median_similarity) to CSV."""
     df_medians.to_csv(outpath, index=False)
 
-def append_results(csv_path, family, pval, rb, ci_low, ci_high):
+def describe_distribution(arr, label):
+    """Return quantiles and spread statistics for one group."""
+    arr = np.asarray(arr, dtype=float)
+    desc = {
+        f"{label}_n": len(arr),
+        f"{label}_mean": np.mean(arr),
+        f"{label}_std": np.std(arr, ddof=1),
+        f"{label}_iqr": np.percentile(arr, 75) - np.percentile(arr, 25),
+        f"{label}_min": np.min(arr),
+        f"{label}_q10": np.percentile(arr, 10),
+        f"{label}_median": np.median(arr),
+        f"{label}_q90": np.percentile(arr, 90),
+        f"{label}_max": np.max(arr),
+    }
+    return desc
+
+def append_results(csv_path, family, pval, rb, ci_low, ci_high, wf, af):
     """Append results to CSV, add header if file does not exist."""
+    wf_stats = describe_distribution(wf, "WF")
+    af_stats = describe_distribution(af, "AF")
+
+    # Levene's test
+    stat, p_var = levene(wf, af)
+    wf_var = np.var(wf, ddof=1)
+    af_var = np.var(af, ddof=1)
+    if wf_var > af_var:
+        larger_var_group = "WF"
+    elif af_var > wf_var:
+        larger_var_group = "AF"
+    else:
+        larger_var_group = "equal"    
     row = {
         "family": family,
         "p_value": pval,
         "rank_biserial": rb,
         "ci_low": ci_low,
         "ci_high": ci_high,
+        "variance_test_p": p_var,
+        "larger_var_group": larger_var_group,
     }
+    row.update(wf_stats)
+    row.update(af_stats)
+
     df_row = pd.DataFrame([row])
     if not os.path.exists(csv_path):
         df_row.to_csv(csv_path, index=False)
@@ -142,6 +176,12 @@ def main():
     ci_low, ci_high = bootstrap_rankbiserial_ci(wf=wf_medians, af=af_medians)
     print(f"95% CI for rank-biserial: [{ci_low:.3f}, {ci_high:.3f}]")
 
+    # 5) Variability and Quantiles
+    wf_desc = describe_distribution(wf_medians, "WF")
+    af_desc = describe_distribution(af_medians, "AF")
+    print("\nWF summary", wf_desc)
+    print("AF summary:", af_desc)
+
     # 5) Report
     print(f"Mann-Whitney U (wf vs af) = {U:.3f}")
     print(f"p-value = {p:.3e}")
@@ -155,7 +195,7 @@ def main():
     print("Plots saved: median_histogram.png, median_boxplot.png")
 
     # 7) Append results
-    append_results(args.out, args.family, p, rank_biserial, ci_low, ci_high)
+    append_results(args.out, args.family, p, rank_biserial, ci_low, ci_high, wf=wf_medians, af=af_medians)
     print(f"Results writen to {args.out}")
 
 if __name__ == "__main__":
