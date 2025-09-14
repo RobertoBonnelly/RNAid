@@ -3,29 +3,22 @@ Device efficient Method for clustering and comparison of large RNA dataset
 
 # Prerequisites
 python 3.6 and above
-pytest
+
+# Installation
+```
+gh repo clone RobertoBonnelly/RNAid (GitHub CLI)
+git clone https://github.com/RobertoBonnelly/RNAid.git (HTTPS)
+```
 
 # Getting Started
 As this project is still in testing stage, you can fork this repo on your local machine and test it as
 instucted below.
 
-# Installation
-```
-git clone git@github.com:abdulvahab/AK_Msc_Project.git(SSH)
-git clone https://github.com/abdulvahab/AK_Msc_Project.git(HTTPS)
-pip install pytest
-```
-
 # Usage:
 ```
-source MScVenv/bin/activate
-python src/fingerprint.py path/to/input/file.out accuracy
-
-> accu(tanimoto) = {  'tan80'  :'0.8 to 1',
-                    'tan60'  : '0.6 to 0.8',
-                    'tan40'  : '0.4 to 0.6',
-                    'tan20'  : '0.2 to 0.4',
-                    'tanbad' : '0 to 0.2' }
+source rna-venv/bin/activate
+python src/2ndscore.py path/to/input/file.fa
+python src/get_vector.py path/to/input/file.out path/to/output/file.csv
 ```
 
 # Examples:
@@ -47,10 +40,13 @@ python -n pytest
 
 
 # Versioning
-We use git for versioning. For the versions available, see the tags on this repository.
+We use git for versioning. For the versions available, see the tags on this or Abdulvahab's repository: https://github.com/abdulvahab/RNAid
+
+
 
 # Author/s
 Abdulvahab Kharadi | akhara01@mail.bbk.ac.uk | vahab.n@googlemail.com
+Roberto Bonnelly | rbonne02@student.bbk.ac.uk | roberto.bonnellya@gmail.com
 
 # License
 Need to discuss on that
