@@ -211,10 +211,10 @@ ver_dag = {'CP001344.1:2330090-2330186 Cyanothece sp. PCC 7425, complete genome 
 class testFing(unittest.TestCase):
 
     def test_get_data(self):
-        self.assertEqual(nf.get_data('../test_sequence_1.fasta.out'), ver_get_data)
-        self.assertEqual(nf.get_data('../test_data_empty.out'), {'NC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':[]})
-        self.assertEqual(nf.get_data('../test_data_compempty.out'), {})
-        self.assertEqual(nf.get_data('../test_multi.out'), ver_get_data_multi)
+        self.assertEqual(nf.get_data('../test_sequence_1.fasta.out')[1], ver_get_data)
+        self.assertEqual(nf.get_data('../test_data_empty.out')[1], {'NC_000913.3:c645003-644197 rna [organism=Escherichia coli str. K-12 substr. MG1655] [GeneID=949065] [chromosome=] FORWARD':[]})
+        self.assertEqual(nf.get_data('../test_data_compempty.out')[1], {})
+        self.assertEqual(nf.get_data('../test_multi.out')[1], ver_get_data_multi)
 
     def test_pal(self):
         self.assertEqual(nf.palindromes(ver_get_data), ver_pal)
@@ -227,5 +227,52 @@ class testFing(unittest.TestCase):
         self.assertEqual(nf.relation(inclusive_pal[IOS_seqname][0], inclusive_pal[IOS_seqname][1]), ver_rel_I)
 
     def test_graph(self):
-        self.assertEqual(nf.pgraph(nf.palindromes(nf.get_data('../test_sequence_1.fasta.out'))), ver_graph)
-        self.assertEqual(nf.pgraph(nf.palindromes(nf.get_data('../test_sequence_multi.fasta.out'))), ver_graph_multi)
+        seq_data = nf.get_data('../test_sequence_1.fasta.out')[1]
+        pals = nf.palindromes(seq_data)
+        graph = nf.pgraph(pals["CP001344.1:2330090-2330186 Cyanothece sp. PCC 7425, complete genome FORWARD"])
+        self.assertEqual(graph, ver_graph['CP001344.1:2330090-2330186 Cyanothece sp. PCC 7425, complete genome FORWARD'])
+
+    def test_graph_multi(self):
+        seq_data = nf.get_data('../test_sequence_multi.fasta.out')[1]
+        pals = nf.palindromes(seq_data)
+
+        # build graphs for each sequence manually
+        graph_multi = {}
+        for seq_name, hp_list in pals.items():
+            graph_multi[seq_name] = nf.pgraph(hp_list)
+
+        self.assertEqual(graph_multi, ver_graph_multi)
+
+    def test_build_directed_graph_from_dict(self):
+      # Simple adjacency dict: 0 → 1, 1 → 2, 2 → nothing
+      adj_dict = {0: [1], 1: [2], 2: []}
+      G = nf.build_directed_graph_from_dict(adj_dict)
+
+      # Check graph type
+      import networkx as nx
+      self.assertIsInstance(G, nx.DiGraph)
+
+      # Check nodes
+      self.assertCountEqual(G.nodes, [0, 1, 2])
+
+      # Check edges
+      self.assertCountEqual(G.edges, [(0, 1), (1, 2)])
+
+    def test_counts_vector(self):
+      fp = ["SS", "OS"]
+      lengths = {0: 12, 1: 15}
+      energies = {0: -3.2, 1: -2.1}
+      vec = nf.counts_vector(fp, lengths=lengths, energies=energies)
+      self.assertIsInstance(vec, list)
+      self.assertTrue(all(isinstance(x, int) for x in vec))
+      expected_len = len(nf.length_bins) + len(nf.energy_bins) + len(nf.custom_feature_table)
+      self.assertEqual(len(vec), expected_len)
+      self.assertTrue(any(x > 0 for x in vec))
+
+    def test_optimized_fingerprint(self):
+        seq_data = nf.get_data('../test_sequence_1.fasta.out')[1]
+        pals = nf.palindromes(seq_data)
+        graph = nf.pgraph(pals["CP001344.1:2330090-2330186 Cyanothece sp. PCC 7425, complete genome FORWARD"])
+        G = nf.build_directed_graph_from_dict(graph)
+        fingerprint = nf.optimized_fingerprint(G, pals['CP001344.1:2330090-2330186 Cyanothece sp. PCC 7425, complete genome FORWARD'], max_path_length=2)
+        self.assertEqual(fingerprint, ["S;S", "-", "-", "-"])
