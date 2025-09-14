@@ -16,7 +16,7 @@ instucted below.
 
 # Usage:
 ```
-source rna-venv/bin/activate
+source rna-env/bin/activate
 python src/2ndscore.py path/to/input/file.fa
 python src/get_vector.py path/to/input/file.out path/to/output/file.csv
 ```
@@ -24,17 +24,14 @@ python src/get_vector.py path/to/input/file.out path/to/output/file.csv
 # Examples:
 
 ```
-#when current working directory is mscproject
-python src/fingerprint.py input/test.out tan80
+When current working directory is RNAid
+python src/2ndscore.py RFAM/6A.fasta
+python src/get_vectors.py RFAM/6A.out
 ```
 
-# Resources
-
-https://drive.google.com/open?id=1tyL_IMTfE4r--jSxzpnx4S79o8V0UsPO
-
-
-Running the tests
-python -n pytest
+# Tests
+cd into src and run:
+python -m unittest test_fingerprints.py
 
 # Contributing
 
