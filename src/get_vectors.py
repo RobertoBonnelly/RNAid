@@ -10,7 +10,7 @@ import networkx as nx
 from tqdm import tqdm
 
 
-def get_data(hairpins_file, max_energy):
+def get_data(hairpins_file, max_energy=9):
 
     ## empty list
     refine_data = []

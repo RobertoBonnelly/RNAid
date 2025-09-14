@@ -1,5 +1,5 @@
 import unittest
-import new_fingerprint_functions as nf
+import get_vectors as nf
 
 ver_get_data = {'CP001344.1:2330090-2330186 Cyanothece sp. PCC 7425, complete genome FORWARD': [['-1',
    '33',
@@ -217,8 +217,8 @@ class testFing(unittest.TestCase):
         self.assertEqual(nf.get_data('../test_multi.out'), ver_get_data_multi)
 
     def test_pal(self):
-        self.assertEqual(nf.new_palindromes(ver_get_data), ver_pal)
-        self.assertEqual(nf.new_palindromes(ver_get_data_multi), ver_pal_multi)
+        self.assertEqual(nf.palindromes(ver_get_data), ver_pal)
+        self.assertEqual(nf.palindromes(ver_get_data_multi), ver_pal_multi)
     
     def test_rel(self):
         self.assertEqual(nf.relation(ver_pal[IOS_seqname][0], ver_pal[IOS_seqname][1]), ver_rel)
@@ -227,11 +227,5 @@ class testFing(unittest.TestCase):
         self.assertEqual(nf.relation(inclusive_pal[IOS_seqname][0], inclusive_pal[IOS_seqname][1]), ver_rel_I)
 
     def test_graph(self):
-        self.assertEqual(nf.new_pgraph(nf.new_palindromes(nf.get_data('../test_sequence_1.fasta.out'))), ver_graph)
-        self.assertEqual(nf.new_pgraph(nf.new_palindromes(nf.get_data('../test_sequence_multi.fasta.out'))), ver_graph_multi)
-    
-    def test_path(self):
-        self.assertEqual(nf.new_pathsfunc(nf.new_pgraph(nf.new_palindromes(nf.get_data('../test_sequence_multi.fasta.out'))), 0), ver_path)
-
-    def test_pal(self):
-        self.assertEqual(nf.new_dag(ver_path), ver_dag)
+        self.assertEqual(nf.pgraph(nf.palindromes(nf.get_data('../test_sequence_1.fasta.out'))), ver_graph)
+        self.assertEqual(nf.pgraph(nf.palindromes(nf.get_data('../test_sequence_multi.fasta.out'))), ver_graph_multi)
